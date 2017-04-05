@@ -49,8 +49,8 @@
     			this.height=hash.height || 30;
     			this.repeat_num=(this.width+this.height)*2;
     			$("#maze_area").css("display","inline");
-    			this.mass_width=SVG.getWidth()/this.height;
-    			this.mass_height=SVG.getHeight()/this.width;
+    			this.mass_width=SVG.getWidth()/this.width;
+    			this.mass_height=SVG.getHeight()/this.height;
     			this.goal_x=this.getMaxEvenNumber(this.width);
     			this.goal_y=this.getMaxEvenNumber(this.height);
     			for(var i=0;i<this.width;i++){
