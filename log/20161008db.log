@@ -1,0 +1,2 @@
+2016/10/08 17:06:13    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='61' group by u.id
+2016/10/08 17:06:13    update user set count=7,lastdate=now() where id='61'

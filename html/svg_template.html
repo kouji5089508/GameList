@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" >
+var SVG={
+	getHeight:function(){
+		return $("#svg_area").height();
+	},
+	getWidth:function(){
+		return $("#svg_area").width();
+	},
+	append:function(elm){
+		$("#svg_area").append(elm);
+	},
+	makeCircle:function(x,y,r,color){
+		var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+		circle.setAttribute("cx",x);
+	    circle.setAttribute("cy",y);
+	    circle.setAttribute("r",r);
+	    circle.setAttribute("fill",color);
+	    return circle;
+	},
+	makePolygon:function(color,points,option){
+		var polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+		var option= option || {};
+	    polygon.setAttribute("fill",color);
+	    polygon.setAttribute("points",points);
+	    if(option.stroke){
+	    	polygon.setAttribute("stroke",option.stroke);
+	    	polygon.setAttribute("stroke-width",(option.stroke_width || 1));
+	    }
+	    if(option.id){
+	    	polygon.setAttribute("id",option.id);
+	    }
+	    return polygon;
+	},
+	makeLine:function(option){
+		var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+		//最低限必要な属性を付与
+		option = option || {};
+		option['x1'] = option['x1'] || 100;
+		option['y1'] = option['y1'] || 100;
+		option['x2'] = option['x2'] || 200;
+		option['y2'] = option['y2'] || 200;
+		option['stroke-width'] = option['stroke-width'] || 10;
+		option['stroke'] = option['stroke'] || "red";
+		for(var key in option){
+			line.setAttribute(key,option[key]);
+		}
+		return line;
+	}
+}
+
+$(document).ready(function(){
+	var line = SVG.makeLine({x1:50,y1:100,x2:100,y2:100,stroke:"blue"});
+	SVG.append(line);
+	var polygon = SVG.makePolygon();
+});
+
+
+</script>
+</head>
+<body>
+
+<svg x=0 y=0 width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  id="svg_area" overflow="hidden"  >
+</svg>
+</body>
+</html>

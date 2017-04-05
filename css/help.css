@@ -1,0 +1,21 @@
+/*
+*{
+	font-family:Meiryo, メイリオ;
+}
+*/
+
+#time_count_div,#status_descript{
+	font-size:34px;
+}
+
+#user_info_table{
+	font-size:15px;
+}
+
+#users_table{
+	font-size:15px;
+}
+
+#vote_result_area{
+	font-size:25px;
+}

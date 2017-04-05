@@ -1,0 +1,4 @@
+2016/06/29 21:41:13    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='10' group by u.id
+2016/06/29 21:41:14    update user set count=47,lastdate=now() where id='10'
+2016/06/29 21:41:14    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/29 21:41:37    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id

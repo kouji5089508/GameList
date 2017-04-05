@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>Oogiri2</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+	    <servlet-name>InitServlet</servlet-name>
+	    <servlet-class>servlet.InitServlet</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>ImageServlet</servlet-name>
+	    <servlet-class>servlet.ImageServlet</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>GetImageServlet</servlet-name>
+	    <servlet-class>servlet.GetImageServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>InitServlet</servlet-name>
+	    <url-pattern>*.spc</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>ImageServlet</servlet-name>
+	    <url-pattern>*.ri</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>GetImageServlet</servlet-name>
+	    <url-pattern>/servlet/GetImageServlet</url-pattern>
+	</servlet-mapping>
+</web-app>

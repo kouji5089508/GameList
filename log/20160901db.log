@@ -1,0 +1,36 @@
+2016/09/01 18:06:41    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='55' group by u.id
+2016/09/01 18:06:42    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:15:41    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='55' group by u.id
+2016/09/01 18:15:42    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:21:07    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='55' group by u.id
+2016/09/01 18:21:56    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='55' group by u.id
+2016/09/01 18:21:58    update user set count=22,lastdate=now() where id='55'
+2016/09/01 18:21:59    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:22:01    update theme set now_static_theme=null where now_static_theme is not null 
+2016/09/01 18:22:02    update user set vote_flg=null where vote_flg is not null
+2016/09/01 18:22:03    select id,type,text,picture from theme where     test_flg='1'     ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:22:04    update theme set now_static_theme=now() where id='25'
+2016/09/01 18:22:05    select count(*) count from static_game_log where player =  '55' and theme = '25'
+2016/09/01 18:22:06    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='25'
+2016/09/01 18:22:16    select id,type,text,picture from theme where     test_flg='1'    and  not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/09/01 18:22:24    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:22:25    update theme set last_static_used=now() where id='25'
+2016/09/01 18:22:26    select count(*) count from static_game_log where player =  '55' and theme = '25'
+2016/09/01 18:22:27    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='25'
+2016/09/01 18:30:39    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='55' group by u.id
+2016/09/01 18:30:39    update user set count=23,lastdate=now() where id='55'
+2016/09/01 18:30:39    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:30:39    update theme set last_static_used=now() where id='25'
+2016/09/01 18:30:39    select count(*) count from static_game_log where player =  '55' and theme = '25'
+2016/09/01 18:30:39    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='25'
+2016/09/01 18:30:42    select id,type,text,picture from theme where     test_flg='1'    and  not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/09/01 18:30:43    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:30:43    update theme set last_static_used=now() where id='25'
+2016/09/01 18:30:44    select count(*) count from static_game_log where player =  '55' and theme = '25'
+2016/09/01 18:30:44    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='25'
+2016/09/01 18:51:48    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='55' group by u.id
+2016/09/01 18:51:48    update user set count=24,lastdate=now() where id='55'
+2016/09/01 18:51:49    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/09/01 18:51:49    update theme set last_static_used=now() where id='25'
+2016/09/01 18:51:49    select count(*) count from static_game_log where player =  '55' and theme = '25'
+2016/09/01 18:51:49    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='25'

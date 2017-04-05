@@ -1,0 +1,809 @@
+2016/06/24 15:44:50    java.sql.SQLException: Query execution was interrupted
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at db.DBUtil.getGameSequence(DBUtil.java:138)
+	at ap.GameLog.<init>(GameLog.java:20)
+	at ap.Game.recordLog(Game.java:211)
+	at ap.Game.changeStatus(Game.java:198)
+	at ap.Game.access$4(Game.java:176)
+	at ap.Game$3.run(Game.java:142)
+
+2016/06/24 15:44:50    com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/06/24 15:44:51    com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4768)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4734)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.tomcat.dbcp.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at db.DBUtil.getOneLineData(DBUtil.java:104)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/06/24 15:44:51    com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4768)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4734)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.tomcat.dbcp.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at db.DBUtil.getOneLineData(DBUtil.java:104)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/06/24 15:44:51    com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1467)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at db.DBUtil.getOneLineData(DBUtil.java:105)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4768)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4734)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.tomcat.dbcp.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at db.DBUtil.getOneLineData(DBUtil.java:104)
+	at ap.Game.setNewTheme(Game.java:335)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:147)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+
+2016/06/24 21:37:57    java.sql.SQLException: Column Index out of range, 0 < 1.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:684)
+	at com.mysql.jdbc.ResultSet.getInt(ResultSet.java:2621)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:225)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:225)
+	at ap.User.<init>(User.java:34)
+	at org.apache.jsp.jsp.Welcome_jsp._jspService(Welcome_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:308)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:259)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:659)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at servlet.InitServlet.doPost(InitServlet.java:35)
+	at servlet.InitServlet.doGet(InitServlet.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:627)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:172)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:174)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:879)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:662)
+

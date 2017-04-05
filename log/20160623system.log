@@ -1,0 +1,12 @@
+2016/06/23 11:41:32    java.sql.SQLException: Parameter index out of range (5 > number of parameters, which is 4).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:2796)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:3627)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
+	at ap.GameLog.recordLog(GameLog.java:72)
+	at ap.Game.recordLog(Game.java:223)
+	at ap.Game.changeStatus(Game.java:198)
+	at ap.Game.access$4(Game.java:176)
+	at ap.Game$3.run(Game.java:142)
+

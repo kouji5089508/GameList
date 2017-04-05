@@ -1,0 +1,877 @@
+2016/06/24 13:45:09    select * from user where id='10'
+2016/06/24 13:45:09    update user set count=35,lastdate=now() where id='10'
+2016/06/24 13:45:10    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:45:26    select * from user where id='11'
+2016/06/24 13:45:26    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:45:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:45:33    com.mysql.jdbc.PreparedStatement@7b4653a3: statement has been closed, no further internal information available
+2016/06/24 13:45:33    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:45:33    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:45:49    select * from user where id='12'
+2016/06/24 13:45:49    select id,type,text,picture from theme where not id in(3,8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:45:49    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:46:03    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:04    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:04    select id,type,text,picture from theme where not id in(3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:46:35    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:35    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:35    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:35    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:46:35    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:47:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:47:05    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:47:06    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:47:07    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:47:53    select * from user where id='11'
+2016/06/24 13:47:53    update user set count=10,lastdate=now() where id='11'
+2016/06/24 13:47:53    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:08    select * from user where id='12'
+2016/06/24 13:48:08    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:48:27    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:27    select id,type,text,picture from theme where not id in(8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:48    select id,type,text,picture from theme where not id in(8,7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:48    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:48:58    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:48:59    select id,type,text,picture from theme where not id in(7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:49:17    select id,type,text,picture from theme where not id in(7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:49:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:49:50    select * from user where id='11'
+2016/06/24 13:49:50    update user set count=11,lastdate=now() where id='11'
+2016/06/24 13:49:50    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:49:57    select * from user where id='10'
+2016/06/24 13:49:57    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:09    select * from user where id='12'
+2016/06/24 13:50:09    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:50:23    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:23    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:23    select id,type,text,picture from theme where not id in(9,8,7,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:23    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:50:53    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:54    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:50:54    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:51:20    com.mysql.jdbc.PreparedStatement@6a2d0483: statement has been closed, no further internal information available
+2016/06/24 13:51:20    com.mysql.jdbc.PreparedStatement@31836aea: statement has been closed, no further internal information available
+2016/06/24 13:51:20    select id,type,text,picture from theme where not id in(9,7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:21    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:21    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:21    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:51:51    select id,type,text,picture from theme where not id in(3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:52    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:52    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:52    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:51:52    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:52:22    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:22    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:24    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:52:53    select id,type,text,picture from theme where not id in(9,8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:53    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:53    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:52:54    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:53:24    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:24    select id,type,text,picture from theme where not id in(3,9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:24    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:25    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:53:55    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:55    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:53:55    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:54:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 13:54:26    select id,type,text,picture from theme where not id in(9,7,3,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:54:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 13:54:27    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 13:54:27    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:04    select * from user where id='10'
+2016/06/24 14:00:04    update user set count=36,lastdate=now() where id='10'
+2016/06/24 14:00:04    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:19    select * from user where id='12'
+2016/06/24 14:00:19    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:22    select * from user where id='11'
+2016/06/24 14:00:22    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:00:37    select id,type,text,picture from theme where not id in(8,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:37    select id,type,text,picture from theme where not id in(8,3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:37    select id,type,text,picture from theme where not id in(8,3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:00:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:01:07    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:08    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:08    select id,type,text,picture from theme where not id in(3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:01:39    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:39    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:39    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:01:41    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:02:10    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:10    select id,type,text,picture from theme where not id in(7,9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:11    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:11    select id,type,text,picture from theme where not id in(7,9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:11    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:02:41    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:02:41    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:03:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:11:48    select * from user where id='11'
+2016/06/24 14:11:48    update user set count=12,lastdate=now() where id='11'
+2016/06/24 14:11:48    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:11:54    select * from user where id='10'
+2016/06/24 14:11:54    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:11:58    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:04    select * from user where id='12'
+2016/06/24 14:12:05    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:12:21    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:21    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:21    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:21    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:21    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:12:53    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:53    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:53    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:12:53    select id,type,text,picture from theme where not id in(7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:13:23    select id,type,text,picture from theme where not id in(7,8,3,9,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:24    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:24    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:24    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:13:54    select id,type,text,picture from theme where not id in(3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:55    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:55    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:55    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:13:57    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:14:25    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:25    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:25    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:27    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:14:56    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:56    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:56    select id,type,text,picture from theme where not id in(8,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:57    select id,type,text,picture from theme where not id in(8,3,9,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:14:57    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:15:27    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:27    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:28    select id,type,text,picture from theme where not id in(7,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:15:58    select id,type,text,picture from theme where not id in(7,3,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:58    select id,type,text,picture from theme where not id in(7,3,3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:15:59    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:16:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:16:29    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:16:30    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:16:30    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:16:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:17:00    select id,type,text,picture from theme where not id in(9,8,7,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:00    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:00    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:00    select id,type,text,picture from theme where not id in(8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:17:31    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:31    select id,type,text,picture from theme where not id in(8,9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:32    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:32    select id,type,text,picture from theme where not id in(8,9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:17:32    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:18:03    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:03    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:04    select id,type,text,picture from theme where not id in(7,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:18:34    select id,type,text,picture from theme where not id in(7,3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:34    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:35    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:18:35    select id,type,text,picture from theme where not id in(8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:19:05    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:06    select id,type,text,picture from theme where not id in(8,9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:06    select id,type,text,picture from theme where not id in(8,9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:19:36    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:37    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:19:37    select id,type,text,picture from theme where not id in(3,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:20:07    select id,type,text,picture from theme where not id in(3,7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:07    select id,type,text,picture from theme where not id in(3,7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:08    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:20:38    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:39    select id,type,text,picture from theme where not id in(8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:20:39    select id,type,text,picture from theme where not id in(8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:21:10    select id,type,text,picture from theme where not id in(8,3,7,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:10    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:10    select id,type,text,picture from theme where not id in(8,3,7,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:10    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:11    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:24    select id,type,text,picture from theme where not id in(8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:36    select id,type,text,picture from theme where not id in(8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:21:41    select id,type,text,picture from theme where not id in(8,9,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:41    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:42    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:21:42    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:22:12    select id,type,text,picture from theme where not id in(7,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:12    select id,type,text,picture from theme where not id in(7,3,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:13    select id,type,text,picture from theme where not id in(7,3,3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:13    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:22:43    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:44    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:22:45    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:23:14    select id,type,text,picture from theme where not id in(9,8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:14    select id,type,text,picture from theme where not id in(9,8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:15    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:15    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:15    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:43    select id,type,text,picture from theme where not id in(7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:23:45    select id,type,text,picture from theme where not id in(7,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:46    select id,type,text,picture from theme where not id in(7,3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:46    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:23:47    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:24:16    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:16    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:18    select id,type,text,picture from theme where not id in(3,8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:18    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:41    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:24:48    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:48    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:48    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:24:49    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:25:18    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:19    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:19    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:25:49    select id,type,text,picture from theme where not id in(3,9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:49    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:50    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:25:50    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:26:20    select id,type,text,picture from theme where not id in(9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:20    select id,type,text,picture from theme where not id in(9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:21    select id,type,text,picture from theme where not id in(9,3,8,7,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:21    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:23    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:26:51    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:52    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:26:52    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:27:23    select id,type,text,picture from theme where not id in(3,8,7,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:23    select id,type,text,picture from theme where not id in(3,8,7,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:23    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:23    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:24    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:27:54    select id,type,text,picture from theme where not id in(7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:54    select id,type,text,picture from theme where not id in(7,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:54    select id,type,text,picture from theme where not id in(7,3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:27:55    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:28:23    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:24    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:24    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:28:54    select id,type,text,picture from theme where not id in(8,7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:54    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:54    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:28:56    select id,type,text,picture from theme where not id in(9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:01    select id,type,text,picture from theme where not id in(9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:29:25    select id,type,text,picture from theme where not id in(9,3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:25    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:25    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:26    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:29:56    select id,type,text,picture from theme where not id in(8,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:57    select id,type,text,picture from theme where not id in(8,3,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:57    select id,type,text,picture from theme where not id in(8,3,3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:29:57    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:30:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:30:28    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:30:28    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:30:30    select id,type,text,picture from theme where not id in(7,8,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:30:42    select id,type,text,picture from theme where not id in(7,8,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:30:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:30:59    select id,type,text,picture from theme where not id in(7,8,8,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:30:59    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:31:00    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:31:00    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:31:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:31:31    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:31:31    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:31:31    select id,type,text,picture from theme where not id in(9,7,8,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:31:31    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:32:02    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:02    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:03    select id,type,text,picture from theme where not id in(9,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:32:33    select id,type,text,picture from theme where not id in(9,3,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:33    select id,type,text,picture from theme where not id in(9,3,3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:33    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:34    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:32:43    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:33:04    select id,type,text,picture from theme where not id in(8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:04    select id,type,text,picture from theme where not id in(8,7,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:04    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:05    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:06    select id,type,text,picture from theme where not id in(9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:33:35    select id,type,text,picture from theme where not id in(9,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:35    select id,type,text,picture from theme where not id in(9,3,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:35    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:33:35    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:34:06    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:06    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:06    select id,type,text,picture from theme where not id in(3,8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:07    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:34:37    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:38    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:34:39    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:35:08    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:08    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:08    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:16    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:35:39    select id,type,text,picture from theme where not id in(7,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:39    select id,type,text,picture from theme where not id in(7,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:40    select id,type,text,picture from theme where not id in(7,9,3,8,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:40    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:35:49    select * from user where id='12'
+2016/06/24 14:35:50    update user set count=11,lastdate=now() where id='12'
+2016/06/24 14:35:50    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:36:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:36:24    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:36:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:36:57    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:37:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:37:30    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:38:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:38:02    select id,type,text,picture from theme where not id in(9,8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:38:02    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:38:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:38:35    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:39:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:39:08    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:39:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:39:40    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:40:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:40:12    select id,type,text,picture from theme where not id in(9,7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:40:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:40:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:40:45    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:41:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:41:17    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:41:43    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:41:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:41:50    select id,type,text,picture from theme where not id in(9,7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:41:50    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:42:21    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:42:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:42:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:42:55    select id,type,text,picture from theme where not id in(8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:43:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:43:28    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:44:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:44:01    select id,type,text,picture from theme where not id in(8,9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:44:01    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:44:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:44:34    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:44:52    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:45:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:45:06    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:45:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:45:38    select id,type,text,picture from theme where not id in(3,8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:45:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:46:00    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:46:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:46:10    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:46:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:46:43    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:47:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:47:15    select id,type,text,picture from theme where not id in(3,9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:47:15    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:47:27    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:47:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:47:48    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:48:10    select id,type,text,picture from theme where not id in(9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:48:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:48:19    select id,type,text,picture from theme where not id in(9,8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:48:19    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:48:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:48:52    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:49:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:49:24    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:49:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:49:57    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:50:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:50:30    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:50:30    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:50:47    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:51:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:51:02    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:51:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:51:34    select id,type,text,picture from theme where not id in(8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:52:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:52:06    select id,type,text,picture from theme where not id in(8,7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:52:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:52:37    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:52:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:53:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:53:12    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:53:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:53:44    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:54:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:54:16    select id,type,text,picture from theme where not id in(7,9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:54:16    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:54:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:54:49    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:55:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:55:20    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:55:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:55:53    select id,type,text,picture from theme where not id in(8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:56:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:56:26    select id,type,text,picture from theme where not id in(8,3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:56:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:56:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:56:59    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:57:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:57:31    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:58:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:58:04    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:58:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:58:36    select id,type,text,picture from theme where not id in(9,7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:58:36    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 14:59:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:59:09    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 14:59:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 14:59:42    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:00:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:00:15    select id,type,text,picture from theme where not id in(3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:00:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:00:49    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:00:49    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:01:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:01:21    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:01:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:01:54    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:02:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:02:26    select id,type,text,picture from theme where not id in(7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:02:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:02:58    select id,type,text,picture from theme where not id in(7,8,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:02:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:03:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:03:31    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:04:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:04:03    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:04:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:04:35    select id,type,text,picture from theme where not id in(3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:05:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:05:08    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:05:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:05:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:05:40    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:06:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:06:12    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:06:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:06:44    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:07:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:07:16    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:07:16    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:07:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:07:49    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:08:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:08:22    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:08:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:08:54    select id,type,text,picture from theme where not id in(9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:09:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:09:26    select id,type,text,picture from theme where not id in(9,8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:09:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:09:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:09:58    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:10:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:10:31    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:11:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:11:04    select id,type,text,picture from theme where not id in(3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:11:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:11:36    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:11:37    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:12:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:12:08    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:12:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:12:40    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:13:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:13:13    select id,type,text,picture from theme where not id in(3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:13:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:13:45    select id,type,text,picture from theme where not id in(3,9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:13:46    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:14:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:14:18    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:14:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:14:51    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:15:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:15:24    select id,type,text,picture from theme where not id in(3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:15:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:15:58    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:15:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:16:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:16:29    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:17:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:17:02    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:17:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:17:35    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:18:02    select id,type,text,picture from theme where not id in(3,8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:18:02    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:18:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:18:06    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:18:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:18:39    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:19:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:19:12    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:19:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:19:45    select id,type,text,picture from theme where not id in(9,7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:19:45    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:20:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:20:18    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:20:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:20:50    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:21:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:21:23    select id,type,text,picture from theme where not id in(8,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:21:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:21:56    select id,type,text,picture from theme where not id in(8,3,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:21:56    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:22:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:22:28    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:23:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:23:01    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:23:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:23:34    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:24:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:24:06    select id,type,text,picture from theme where not id in(7,9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:24:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:24:06    select id,type,text,picture from theme where not id in(7,9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:24:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:24:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:24:39    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:25:01    select * from user where id='11'
+2016/06/24 15:25:01    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:25:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:25:11    select id,type,text,picture from theme where not id in(3,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:25:12    select id,type,text,picture from theme where not id in(3,7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:25:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:25:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:25:42    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:25:42    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:26:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:26:13    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:26:14    select id,type,text,picture from theme where not id in(3,9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:26:14    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:26:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:26:44    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:26:45    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:27:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:27:16    select id,type,text,picture from theme where not id in(9,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:27:16    select id,type,text,picture from theme where not id in(9,8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:27:16    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:18    select * from user where id='12'
+2016/06/24 15:30:18    update user set count=12,lastdate=now() where id='12'
+2016/06/24 15:30:18    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:26    select * from user where id='11'
+2016/06/24 15:30:26    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:44    select * from user where id='10'
+2016/06/24 15:30:44    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:30:52    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:52    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:52    select id,type,text,picture from theme where not id in(7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:53    select id,type,text,picture from theme where not id in(7,9,8,3,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:30:53    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:12    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:31:23    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:23    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:24    select id,type,text,picture from theme where not id in(3,9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:24    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:31:54    com.mysql.jdbc.PreparedStatement@2e595420: statement has been closed, no further internal information available
+2016/06/24 15:31:54    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:54    select id,type,text,picture from theme where not id in(9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:31:55    select id,type,text,picture from theme where not id in(9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:32:37    select * from user where id='12'
+2016/06/24 15:32:37    update user set count=13,lastdate=now() where id='12'
+2016/06/24 15:32:38    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:32:56    select * from user where id='10'
+2016/06/24 15:32:56    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:33:11    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:11    select id,type,text,picture from theme where not id in(3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:11    select id,type,text,picture from theme where not id in(3,8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:27    select * from user where id='11'
+2016/06/24 15:33:28    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:33:42    select id,type,text,picture from theme where not id in(7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:43    select id,type,text,picture from theme where not id in(7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:43    select id,type,text,picture from theme where not id in(7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:43    select id,type,text,picture from theme where not id in(7,3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:33:43    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:34:13    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:13    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:13    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:14    select id,type,text,picture from theme where not id in(9,8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:14    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:34:44    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:44    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:45    select id,type,text,picture from theme where not id in(3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:45    select id,type,text,picture from theme where not id in(3,8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:34:45    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:35:15    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:15    select id,type,text,picture from theme where not id in(9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:16    select id,type,text,picture from theme where not id in(9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:16    select id,type,text,picture from theme where not id in(9,8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:16    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:35:44    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:44    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:44    select id,type,text,picture from theme where not id in(7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:35:44    select id,type,text,picture from theme where not id in(7,3,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:36:15    select id,type,text,picture from theme where not id in(7,3,3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:15    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:16    select id,type,text,picture from theme where not id in(7,3,3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:16    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:16    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:16    select id,type,text,picture from theme where not id in(8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:36:47    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:47    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:47    select id,type,text,picture from theme where not id in(8,9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:47    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:47    select id,type,text,picture from theme where not id in(8,9,7,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:36:47    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:37:18    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:18    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:18    select id,type,text,picture from theme where not id in(7,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:18    select id,type,text,picture from theme where not id in(7,9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:18    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:37:49    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:49    select id,type,text,picture from theme where not id in(8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:50    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:37:50    select id,type,text,picture from theme where not id in(8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:38:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:38:59    select * from user where id='12'
+2016/06/24 15:38:59    update user set count=14,lastdate=now() where id='12'
+2016/06/24 15:39:00    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:00    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:17    select * from user where id='10'
+2016/06/24 15:39:17    select id,type,text,picture from theme where not id in(3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:28    select * from user where id='11'
+2016/06/24 15:39:28    select id,type,text,picture from theme where not id in(3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:39:31    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:31    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:31    select id,type,text,picture from theme where not id in(3,7,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:31    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:32    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:39:32    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:40:02    com.mysql.jdbc.PreparedStatement@64626fd2: statement has been closed, no further internal information available
+2016/06/24 15:40:02    select id,type,text,picture from theme where not id in(7,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:02    select id,type,text,picture from theme where not id in(7,3,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:03    select id,type,text,picture from theme where not id in(7,3,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:03    select id,type,text,picture from theme where not id in(7,3,3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:03    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:40:33    com.mysql.jdbc.PreparedStatement@2c92af24: statement has been closed, no further internal information available
+2016/06/24 15:40:33    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:33    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:34    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:35    select id,type,text,picture from theme where not id in(7,8,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:35    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:40:54    com.mysql.jdbc.PreparedStatement@74b70648: statement has been closed, no further internal information available
+2016/06/24 15:40:55    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:55    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:55    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:40:56    select id,type,text,picture from theme where not id in(8,3,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:41:26    select id,type,text,picture from theme where not id in(8,3,9,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:26    select id,type,text,picture from theme where not id in(8,3,9,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:26    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:26    select id,type,text,picture from theme where not id in(9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:41:52    select id,type,text,picture from theme where not id in(9,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:53    select id,type,text,picture from theme where not id in(9,3,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:53    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:53    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:41:53    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:42:24    select id,type,text,picture from theme where not id in(8,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:24    select id,type,text,picture from theme where not id in(8,3,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:25    select id,type,text,picture from theme where not id in(8,3,3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:25    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:25    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:42:51    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:51    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:51    select id,type,text,picture from theme where not id in(8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:42:51    select id,type,text,picture from theme where not id in(8,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:43:22    select id,type,text,picture from theme where not id in(8,7,9,3,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:22    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:22    select id,type,text,picture from theme where not id in(8,7,9,3,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:22    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:22    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:22    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:43:53    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:54    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:54    select id,type,text,picture from theme where not id in(9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:54    select id,type,text,picture from theme where not id in(9,3,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:43:54    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 15:44:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 15:44:19    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:44:20    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:44:20    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 15:44:20    select id,type,text,picture from theme where not id in(9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:21    select * from user where id='10'
+2016/06/24 20:02:21    update user set count=37,lastdate=now() where id='10'
+2016/06/24 20:02:22    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:28    select * from user where id='12'
+2016/06/24 20:02:28    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:45    select * from user where id='11'
+2016/06/24 20:02:46    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:02:49    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:49    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:50    select id,type,text,picture from theme where not id in(3,9,8,7,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:02:50    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:03:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:03:21    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:03:22    select id,type,text,picture from theme where not id in(8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:03:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:03:52    select id,type,text,picture from theme where not id in(8,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:03:53    select id,type,text,picture from theme where not id in(8,7,3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:03:53    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:04:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:04:25    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:04:26    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:04:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:04:57    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:04:57    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:05:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:05:28    select id,type,text,picture from theme where not id in(7,8,9,3,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:05:28    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:05:28    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:05:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:05:59    select id,type,text,picture from theme where not id in(7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:06:00    select id,type,text,picture from theme where not id in(7,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:01    select * from user where id='10'
+2016/06/24 20:21:01    update user set count=38,lastdate=now() where id='10'
+2016/06/24 20:21:01    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:06    select * from user where id='12'
+2016/06/24 20:21:07    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:28    select * from user where id='11'
+2016/06/24 20:21:28    select id,type,text,picture from theme where not id in(3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:21:33    select id,type,text,picture from theme where not id in(3,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:34    select id,type,text,picture from theme where not id in(3,8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:34    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:35    select id,type,text,picture from theme where not id in(3,8,9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:21:35    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:22:00    com.mysql.jdbc.PreparedStatement@7d98d9cf: statement has been closed, no further internal information available
+2016/06/24 20:22:00    com.mysql.jdbc.PreparedStatement@3e03e574: statement has been closed, no further internal information available
+2016/06/24 20:22:00    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:00    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:01    select id,type,text,picture from theme where not id in(7,9,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:22:31    select id,type,text,picture from theme where not id in(7,9,9,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:32    select id,type,text,picture from theme where not id in(7,9,9,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:32    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:22:34    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:23:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:23:02    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:23:02    select id,type,text,picture from theme where not id in(9,7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:23:03    select id,type,text,picture from theme where not id in(9,7,3,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:23:03    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 20:23:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:23:36    select id,type,text,picture from theme where not id in(8) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:23:36    select id,type,text,picture from theme where not id in(8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:24:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 20:24:07    select id,type,text,picture from theme where not id in(8,3,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:24:07    select id,type,text,picture from theme where not id in(8,3,7,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 20:24:07    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 21:37:57    select u.*,count(*) play_count from user u  join game_log gl on u.id=gl.player where u.id='10' group by u.id
+2016/06/24 21:37:57    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:38:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:38:31    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:39:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:39:04    select id,type,text,picture from theme where not id in(7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:39:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:39:37    select id,type,text,picture from theme where not id in(7,8,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:39:58    select u.*,count(*) play_count from user u  join game_log gl on u.id=gl.player where u.id='10' group by u.id
+2016/06/24 21:39:58    update user set count=39,lastdate=now() where id='10'
+2016/06/24 21:39:58    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:40:21    select u.*,count(*) play_count from user u  join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/06/24 21:40:21    select id,type,text,picture from theme where not id in(3) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:40:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:40:31    select id,type,text,picture from theme where not id in(3,9) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:40:32    select id,type,text,picture from theme where not id in(3,9,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:40:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:40:46    com.mysql.jdbc.PreparedStatement@3c870e2f: statement has been closed, no further internal information available
+2016/06/24 21:40:46    com.mysql.jdbc.PreparedStatement@46b44eb4: statement has been closed, no further internal information available
+2016/06/24 21:40:46    select id,type,text,picture from theme where not id in(3,9,8,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:40:46    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 21:40:46    select id,type,text,picture from theme where not id in(9) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:41:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:41:17    select id,type,text,picture from theme where not id in(9,7) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:41:18    select id,type,text,picture from theme where not id in(9,7,8) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:41:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:41:38    com.mysql.jdbc.PreparedStatement@4f549ceb: statement has been closed, no further internal information available
+2016/06/24 21:41:38    com.mysql.jdbc.PreparedStatement@3c0a30fd: statement has been closed, no further internal information available
+2016/06/24 21:41:38    select id,type,text,picture from theme where not id in(9,7,8,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:41:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/06/24 21:41:39    select id,type,text,picture from theme where not id in(7) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:42:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/06/24 21:42:10    select id,type,text,picture from theme where not id in(7,3) ORDER BY RAND() LIMIT 1 
+2016/06/24 21:42:10    select id,type,text,picture from theme where not id in(7,3,8) ORDER BY RAND() LIMIT 1 

@@ -1,0 +1,564 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body{
+	font-family:"メイリオ", Meiryo, sans-serif;
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" >
+var svg={
+	getHeight:function(){
+		return $("#svg_area").height();
+	},
+	getWidth:function(){
+		return $("#svg_area").width();
+	},
+	append:function(elm){
+		$("#svg_area").append(elm);
+	},
+	makeCircle:function(x,y,r,color){
+		var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+		circle.setAttribute("cx",x);
+	    circle.setAttribute("cy",y);
+	    circle.setAttribute("r",r);
+	    circle.setAttribute("fill",color);
+	    return circle;
+	},
+	makePolygon:function(color,points,stroke_flg,config){
+		var polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+		var config= config || {};
+	    polygon.setAttribute("fill",color);
+	    polygon.setAttribute("points",points);
+	    if(stroke_flg){
+	    	polygon.setAttribute("stroke","#222222");
+	    	polygon.setAttribute("stroke-width",1);
+	    }
+	    if(config.id){
+	    	polygon.setAttribute("id",config.id);
+	    }
+	    return polygon;
+	},
+	getLength:function(x,y){
+		return Math.pow(Math.pow(x,2)+Math.pow(y,2),0.5);
+	},
+	makeLine:function(config){
+		var line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+		line.setAttribute("x1",config.x1);
+		line.setAttribute("y1",config.y1);
+		line.setAttribute("x2",config.x2);
+		line.setAttribute("y2",config.y2);
+		config.color = config.color || "black";
+		config.width = config.width || 10;
+		line.setAttribute("stroke",config.color);
+		line.setAttribute("stroke-width",config.width);
+		return line;
+	},
+	sin:function(rad){
+		return Math.sin(rad*Math.PI/180);
+	},
+	cos:function(rad){
+		return Math.cos(rad*Math.PI/180);
+	},
+	getLimitY:function(){
+		return svg.getHeight()-50;
+	}
+}
+var People=function(config){
+	var config=config || {};
+	var self=this;
+	var group=document.createElementNS("http://www.w3.org/2000/svg", "g");
+	svg.append(group);
+	this.x=config.x || svg.getWidth()-100;
+	this.y=config.y || svg.getHeight()-400;
+	this.ax=config.ax || 0;
+	this.ay=config.ay || 9.8;
+	this.trans_x=0;
+	this.trans_y=0;
+	this.r=10;
+	this.color= config.color || "red";
+	this.speedX=0;
+	this.speedY=0;
+	this.ax=0;
+	this.ay=0;
+	this.type=config.type;
+	this.speedMax=200;
+	this.spling_flg=false;
+	this.grand_flg=false;
+	//バネ定数
+    var k = 1.01;
+    //抗力係数
+    var cd = 0.02;
+    this.run=function(){
+		setInterval(function(){
+			self.move();
+		}, 100);
+	}
+	this.inline=function(){
+		var p_height=30;
+		var f_length=15;
+	    var circle=svg.makeCircle(this.x,this.y,this.r,this.color);
+	    $(group).append(circle);
+	    var p1=(this.x-this.r)+","+(this.y+this.r)+" "+(this.x+this.r)+","+(this.y+this.r)+" "+(this.x+this.r)+","+(this.y+this.r+p_height)+" "+(this.x-this.r)+","+(this.y+this.r+p_height);
+	    var poly1=svg.makePolygon(this.color,p1);
+	    $(group).append(poly1);
+	    var p2=(this.x-this.r)+","+(this.y+this.r)+" "+(this.x-this.r*2.4)+","+(this.y+this.r*2.3)+" "+(this.x-this.r*1.5)+","+(this.y+this.r*2.7)+" "+(this.x)+","+(this.y+this.r*1.5);
+	    var poly2=svg.makePolygon(this.color,p2);
+	    $(group).append(poly2);
+	    var p3=(this.x+this.r)+","+(this.y+this.r)+" "+(this.x+this.r*2.4)+","+(this.y+this.r*2.3)+" "+(this.x+this.r*1.5)+","+(this.y+this.r*2.7)+" "+(this.x)+","+(this.y+this.r*1.5);
+	    var poly3=svg.makePolygon(this.color,p3);
+	    $(group).append(poly3);
+	    var p4=(this.x-this.r)+","+(this.y+this.r+p_height)+" "+(this.x-this.r)+","+(this.y+this.r+p_height+f_length)+" "+(this.x-this.r*0.2)+","+(this.y+this.r+p_height+f_length)+" "+(this.x-this.r*0.2)+","+(this.y+this.r+p_height);
+	    var poly4=svg.makePolygon(this.color,p4);
+	    $(group).append(poly4);
+	    var p5=(this.x+this.r)+","+(this.y+this.r+p_height)+" "+(this.x+this.r)+","+(this.y+this.r+p_height+f_length)+" "+(this.x+this.r*0.2)+","+(this.y+this.r+p_height+f_length)+" "+(this.x+this.r*0.2)+","+(this.y+this.r+p_height);
+	    var poly5=svg.makePolygon(this.color,p5);
+	    $(group).append(poly5);
+	}
+	this.getHand=function(r_l){
+		if(r_l=="r"){
+			return {x:this.x+this.r*2,y:this.y+this.r*2.5};
+		}else{
+			return {x:this.x-this.r*2,y:this.y+this.r*2.5};
+		}
+	}
+	this.move=function(){
+		this.calcAcc();
+		this.calcSpeed();
+		this.shift(this.speedX,this.speedY);
+		this.anotherMove();
+	}
+	this.anotherMove=function(){
+	}
+	this.shift=function(t_x,t_y){
+		this.trans_x+=t_x;
+		this.trans_y+=t_y;
+		if(this.getX()<0 || this.getX()>=$("#svg_area").width()){
+			this.trans_x-=t_x*1;
+		}
+		if(this.getY()>=svg.getLimitY()){
+			this.trans_y=svg.getLimitY()-this.y-30;
+			this.grand_flg=true;
+			this.speedY=0;
+			this.ay=0;
+		}else if(this.getY()<0 ){
+			this.trans_y-=t_y*1;
+			this.grand_flg=false;
+		}else{
+			this.grand_flg=false;
+		}
+		if(this.getY()>= (this.getFulclum())){
+			//this.spling_flg=true;
+		}
+		else{
+			this.spling_flg=false;
+		}
+		group.setAttribute("transform","translate("+this.trans_x+","+this.trans_y+")");
+	}
+	this.getX=function(){
+		return this.x*1+this.trans_x*1;
+	}
+	this.getY=function(){
+		//console.log(this.y*1+this.trans_y*1+30);
+		return this.y*1+this.trans_y*1+30;
+	}
+	this.getFulclum=function(){
+		return svg.getHeight();//-100;
+	}
+	this.calcAcc=function(){
+		if(this.spling_flg){
+			//フックの法則（復元力は変化量に比例）
+			//console.log(this.ay);
+	        this.ay=  -(this.getY() - this.getFulclum()) * k;
+	        console.log(this.ay,cd,this.speedY);
+	        //復元力から空気抵抗分を減算する
+	        //this.ay -= cd * this.speedY;
+	        //console.log(this.ay);
+		}else{
+			this.ay=9.8;
+		}
+	}
+	this.calcSpeed=function(){
+		this.speedX+=this.ax;
+		this.speedY+=this.ay;
+		var s_size=Math.pow(Math.pow(this.speedX,2)+Math.pow(this.speedY,2),0.5);
+		if(s_size*1<=this.speedMax*1){
+		}
+		else{
+			this.speedX=this.speedX/s_size*this.speedMax;
+			this.speedY=this.speedY/s_size*this.speedMax;
+		}
+	}
+	this.spling=function(){
+		//フックの法則（復元力は変化量に比例）
+        this.ay=  (this.getY() - svg.getHeight()) * k;
+        //復元力から空気抵抗分を減算する
+        this.ay -= this.cd * this.speedY;
+        //速度に加速度を加算
+        this.speedY += this.ay;
+	}
+	this.Beem=function(v){
+	    var length=20;
+	    var beem_speed=10;
+	    var beem_width=10;
+	    var beem_color=v.color || "gold";
+	    var v_length=svg.getLength(v.x,v.y);
+	    var v_distance=v.distance || (svg.getWidth()+svg.getHeight());
+	    var x=this.getX();
+	    var y=this.getY();
+	    var t_x=0;
+	    var t_y=0;
+		var bx=length/v_length*v.x;
+		var by=length/v_length*v.y;
+		var point=x+","+y+" "+(x+bx)+","+(y+by)+" "+(x+bx)+","+(y+by+beem_width)+" "+x+","+(y+beem_width);
+		var beem=svg.makePolygon(beem_color,point);
+		beem.getX=function(){
+			return x+t_x;
+		}
+		beem.getY=function(){
+			return y+t_y;
+		}
+		svg.append(beem);
+		var target=(self.type=="player" ? "enemy" : "player");  
+		var counter=0;
+		var timer=setInterval(function(){
+					 t_x+=beem_speed/v_length*v.x;
+					 t_y+=beem_speed/v_length*v.y;
+					 beem.setAttribute("transform","translate("+t_x+","+t_y+")");
+					 beem.setAttribute("class","beem "+self.type);
+					 if(People.static.judgeConfliction(beem,target)){
+					 	beem.remove();
+					 	if(self.type=="enemy"){
+						 	alert("あなたの"+(self.type=="player" ? "勝ちです" : "負けです"));
+						 	location.reload();
+						}else{
+							Gage.reduceGage(10);
+							var val=Gage.getValue();
+							if(val==0){
+								alert("Configuration!! You Win!!");
+								location.reload();
+							}
+						}
+					 }
+					 if(svg.getLength(t_x,t_y)>=v_distance){
+					 	beem.remove();
+					 }
+				  }, 100);
+		if(this.type=="player"){
+			//Gage.zeroGage();
+		}
+		beem.remove=function(){
+			clearTimeout(timer);
+			$(beem).remove();
+		}
+	}
+	this.Bomb=function(option){
+		var x=option.x;
+		var y=option.y;
+		var color=option.color || "black";
+		var shade_color="gray";
+		var r=1;
+		var bomb=svg.makeCircle(x,y,r,shade_color);
+		bomb.setAttribute("fill-opacity",0.5);
+		svg.append(bomb);
+		bomb.getX=function(){
+			return x;
+		}
+		bomb.getY=function(){
+			return y;
+		}
+		var target=(self.type=="player" ? "enemy" : "player");  
+		var timer=setInterval(function(){
+					 r+=5;
+					 bomb.setAttribute("r",r);
+					 if(r>=90){
+					 	bomb.explode();
+					 }
+				  }, 100);
+		bomb.explode=function(){
+			bomb.setAttribute("fill",option.color);
+			bomb.setAttribute("stroke","red");
+			bomb.setAttribute("stroke-width",10);
+			bomb.setAttribute("fill-opacity",1);
+			if(People.static.judgeConfliction(bomb,target,{r:r})){
+			 	bomb.remove();
+			 	alert("あなたの"+(self.type=="player" ? "勝ちです" : "負けです"));
+			 	location.reload();
+			}
+			setTimeout(function(){
+				bomb.remove();
+			},500);
+		}
+		bomb.remove=function(){
+			$(bomb).remove();
+			clearTimeout(timer);
+		}
+	}
+	this.Sord=function(){
+		var hand;
+		var s_length=30;
+		if(this.type=="player"){
+			hand=this.getHand("l");
+		}else{
+			hand=this.getHand("r");
+		}
+		var option={};
+		var rad=60;
+		option.x1=hand.x;
+		option.y1=hand.y;
+		option.x2=option.x1+svg.cos(rad)*(this.type=="player" ? -1:1)*s_length;
+		option.y2=option.y1+svg.sin(rad)*-1*s_length;
+		option.color=this.color;
+		option.width=5;
+		var sord=svg.makeLine(option);
+		sord.getX=function(){
+			return self.getX()-self.x+option.x2;
+		}
+		sord.getY=function(){
+			return self.getY()-self.y+option.y2;
+		}
+		$(group).append(sord);
+		var timer=setInterval(function(){
+					 if(People.static.judgeConfliction(sord,(self.type=="player" ? "enemy" : "player"))){
+					 	clearTimeout(timer);
+					 	$(sord).remove();
+					 	alert("あなたの"+(self.type=="player" ? "勝ちです" : "負けです"));
+					 	location.reload();
+					 }
+					 if(rad<=-60){
+					 	clearTimeout(timer);
+					 	$(sord).remove();
+					 }
+					 rad-=20;
+					 option.x2=option.x1+svg.cos(rad)*(self.type=="player" ? -1:1)*s_length;
+					 option.y2=option.y1+svg.sin(rad)*-1*s_length;
+					 sord.setAttribute("x2",option.x2);
+					 sord.setAttribute("y2",option.y2);
+					 $(".beem").each(function(){
+					 	if(People.static.judgeConfliction(sord,this)){
+						 	this.remove();
+						 }
+					 });
+				  }, 50);
+	}
+}
+People.static=(function(){
+	var player;
+	var enemy;
+	return {
+		getPlayer:function(){
+			return player;
+		},
+		getEnemy:function(){
+			return enemy;
+		},
+		setPlayer:function(p){
+			player=p;
+		},
+		setEnemy:function(e){
+			enemy=e;
+		},
+		getVector:function(p_flg){
+			var player_flg=(p_flg === undefined  ? true:p_flg);//player側からenemyへのベクトルかどうか
+			var vx=enemy.getX()-player.getX();
+			var vy=enemy.getY()-player.getY();
+			if(player_flg){
+				return {vx:vx,vy:vy};
+			}else{
+				return {vx:vx*-1,vy:vy*-1};
+			}
+		},
+		judgeConfliction:function(obj,target,option){
+			var option=option || {};
+			var allow_distance=option.r || 30;
+			if(target=="player"){
+				target=player;
+			}else if(target=="enemy"){
+				target=enemy;
+			}
+			var v1={x:obj.getX(),y:obj.getY()};
+			var v2={x:target.getX(),y:target.getY()};
+			var distance=this.getDistance(v1,v2);
+			if(distance<=allow_distance){
+				return true;
+			}else{
+				return false;
+			}
+		},
+		getDistance:function(v1,v2){
+			var dx=v1.x-v2.x;
+			var dy=v1.y-v2.y;
+			return svg.getLength(dx,dy);
+		}
+	}
+}());
+
+var Gage={
+	value:100,
+	x:null,
+	y:null,
+	length:null,
+	color:null,
+	height:null,
+	appendGage:function(option){
+			option = option || {};
+			this.x=option.x;
+			this.y=option.y;
+			this.length=option.length || 200;
+			this.height= option.height || 10;
+			this.color=option.color || "red";
+			var point=(this.x)+","+(this.y)+" "+(this.x+this.length)+","+(this.y)+" "+(this.x+this.length)+","+(this.y+this.height)+" "+(this.x)+","+(this.y+this.height);
+			var gage=svg.makePolygon(this.color,point,false,{id:"gage"});
+			svg.append(gage);
+			//var frame_point=(svg.getWidth()-300)+","+(svg.getHeight()-30)+" "+(svg.getWidth()-100)+","+(svg.getHeight()-30)+" "+(svg.getWidth()-100)+","+(svg.getHeight()-20)+" "+(svg.getWidth()-300)+","+(svg.getHeight()-20);
+			var gage_frame=svg.makePolygon("transparent",point,true);
+			svg.append(gage_frame);
+	},addGage:function(va){
+		if(this.value>=100){
+		}else{
+			this.value+=va;
+			this.reflect();
+		}
+	},reflect:function(){
+	    var point=(this.x)+","+(this.y)+" "+(this.x+this.value*2)+","+(this.y)+" "+(this.x+this.value*2)+","+(this.y+this.height)+" "+(this.x)+","+(this.y+this.height);
+		$("#gage").get(0).setAttribute("points",point);
+	},zeroGage:function(){
+		this.value=0;
+		this.reflect();
+	},
+	reduceGage:function(val){
+		this.value-=val;
+		if(this.value>=0){
+			this.reflect();
+		}else{
+			this.value=0;
+			this.reflect();
+		}
+	},getValue:function(){
+		return this.value;
+	}
+}
+
+var Player=function(config){
+	People.call(this,config);
+	var self=this;
+	this.shiftSpeed=30;
+	this.shiftSpeedY=30;
+	this.key=null;
+	this.setKey=function(key){
+		this.key=key;
+	}
+	this.calcSpeed=function(){
+		this.speedX=this.getSpeedX();
+		this.speedY=this.getSpeedY();
+		var s_size=Math.pow(Math.pow(this.speedX,2)+Math.pow(this.speedY,2),0.5);
+		if(s_size*1<=this.speedMax*1){
+		}
+		else{
+			this.speedX=this.speedX/s_size*this.speedMax;
+			this.speedY=this.speedY/s_size*this.speedMax;
+		}
+	}
+	this.getSpeedX=function(){
+		if(this.key==37){
+			return this.shiftSpeed*-1;
+		}else if(this.key==38){
+			return 0;
+		}else if(this.key==39){
+			return this.shiftSpeed;
+		}else if(this.key==40){
+			return 0;
+		}
+		return 0;
+	}
+	this.getSpeedY=function(){
+		if(this.key==38){
+			return this.shiftSpeedY*-1;
+		}else if(this.key==40){
+			return this.shiftSpeedY;
+		}
+		//if(this.spling_flg){
+			/*if(this.key==65 && this.grand_flg){
+				return -90;
+			}*/
+		//}
+		return 0;
+	}
+	this.anotherMove=function(){
+		/*if(this.key==88){
+			//if(Gage.value==100){
+				this.Beem({x:-1,y:0,color:self.color});
+			//}
+		}else if(this.key==83){
+			this.Sord();
+		}*/
+		this.key=null;
+		//Gage.addGage(1);
+	}
+}
+var Enemy=function(config){
+	People.call(this,config);
+	var self=this;
+	this.anotherMove=function(){
+		var v=People.static.getVector(false);
+		var v_len=svg.getLength(v.vx,v.vy);
+	 	var rx=v.vx/v_len*3+Math.random()*5-2.5;
+	 	var ry=v.vy/v_len*3+Math.random()*5-2.5;
+	 	var slot=Math.floor(Math.random()*100);
+	 	if(slot>=8){
+			this.Beem({x:rx,y:ry,color:"red"});
+		}else if(slot<=2){
+			this.Bomb({x:self.getX()+v.vx/2,y:self.getY()+v.vy/2});
+		}else if(slot>=3 && slot<=5){
+			this.Bomb({x:self.getX()+v_len/svg.getWidth()*v.vx*0.4,y:self.getY()+v_len/svg.getHeight()*v.vy*0.4});
+		}else if(slot>=6 && slot <=7){
+			this.Bomb({x:self.getX()+v.vx,y:self.getY()+v.vy});
+		}	
+	}
+	this.calcSpeed=function(){
+		this.speedX=Math.random()*30-15;
+		this.speedY=Math.random()*30-15;
+	}
+	this.startBomb=function(){
+		this.Bomb({x:svg.getWidth()/2,y:svg.getHeight()*0.1});
+		this.Bomb({x:svg.getWidth()/2,y:svg.getHeight()*0.3});
+		this.Bomb({x:svg.getWidth()/2,y:svg.getHeight()*0.5});
+		this.Bomb({x:svg.getWidth()/2,y:svg.getHeight()*0.7});
+		this.Bomb({x:svg.getWidth()/2,y:svg.getHeight()*0.9});
+	}
+}
+$(document).ready(function(){
+	var player=new Player({type:"player",color:"blue"});
+	var enemy=new Enemy({type:"enemy",x:100});
+	player.inline();
+	enemy.inline();
+	enemy.startBomb();
+	player.run();
+	enemy.run();
+	People.static.setPlayer(player);
+	People.static.setEnemy(enemy);
+	Gage.appendGage({x:5,y:(svg.getHeight()-30),color:"red"});
+	$(window).keydown(function(e){
+		var key=e.keyCode;
+		player.setKey(key);
+		if(key==88){
+			player.Beem({x:-1,y:0,color:player.color,distance:svg.getLength(svg.getWidth(),svg.getHeight())*0.5});
+		}
+	});
+	$("#text_div").css({top:svg.getHeight()-60,left:svg.getWidth()-600});
+});
+
+
+</script>
+</head>
+<body>
+
+<svg x=0 y=0 width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  id="svg_area" overflow="hidden"  >
+</svg>
+<div  id=text_div style="position:absolute;">
+	←↑→↓：移動<br>
+	X：ビーム発射。ビームは画面の半分ぐらい進むと消えます。
+<div>
+</body>
+</html>

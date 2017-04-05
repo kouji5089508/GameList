@@ -1,0 +1,67 @@
+2016/10/16 15:54:45    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='63' group by u.id
+2016/10/16 15:54:45    update user set count=1,lastdate=now() where id='63'
+2016/10/16 15:54:54     insert into SHOOTING_LOG(user,score) values(63,0)
+2016/10/16 15:54:55    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 15:54:55     select count(*) from SHOOTING_LOG 
+2016/10/16 15:55:18    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/16 15:55:59     insert into SHOOTING_LOG(user,score) values(63,110)
+2016/10/16 15:55:59    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 15:55:59     select count(*) from SHOOTING_LOG 
+2016/10/16 15:56:06    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/16 15:56:59     insert into SHOOTING_LOG(user,score) values(63,330)
+2016/10/16 15:56:59    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 15:56:59     select count(*) from SHOOTING_LOG 
+2016/10/16 16:03:14    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/16 16:04:04     insert into SHOOTING_LOG(user,score) values(63,100)
+2016/10/16 16:04:08    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:04:36     select count(*) from SHOOTING_LOG 
+2016/10/16 16:07:19     insert into SHOOTING_LOG(user,score) values(63,110)
+2016/10/16 16:07:23    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:07:23     select count(*) from SHOOTING_LOG 
+2016/10/16 16:10:19     insert into SHOOTING_LOG(user,score) values(63,200)
+2016/10/16 16:10:51    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:10:51     select count(*) from SHOOTING_LOG 
+2016/10/16 16:24:59     insert into SHOOTING_LOG(user,score) values(63,0)
+2016/10/16 16:25:02     insert into SHOOTING_LOG(user,score) values(63,0)
+2016/10/16 16:25:04    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:25:04     select count(*) from SHOOTING_LOG 
+2016/10/16 16:25:07    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:25:07     select count(*) from SHOOTING_LOG 
+2016/10/16 16:29:21     insert into SHOOTING_LOG(user,score) values(63,0)
+2016/10/16 16:29:26    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:29:26     select count(*) from SHOOTING_LOG 
+2016/10/16 16:31:15     insert into SHOOTING_LOG(user,score) values(63,220)
+2016/10/16 16:32:45    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:32:45     select count(*) from SHOOTING_LOG 
+2016/10/16 16:33:32     insert into SHOOTING_LOG(user,score) values(63,220)
+2016/10/16 16:33:32    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '220'
+2016/10/16 16:33:32     select count(*) from SHOOTING_LOG 
+2016/10/16 16:33:36    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/16 16:38:46     insert into SHOOTING_LOG(user,score) values(63,0)
+2016/10/16 16:38:46    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:38:47     select count(*) from SHOOTING_LOG 
+2016/10/16 16:39:05     insert into SHOOTING_LOG(user,score) values(63,110)
+2016/10/16 16:39:05    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '110'
+2016/10/16 16:39:06     select count(*) from SHOOTING_LOG 
+2016/10/16 16:41:41     insert into SHOOTING_LOG(user,score) values(63,110)
+2016/10/16 16:41:41    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '110'
+2016/10/16 16:41:42     select count(*) from SHOOTING_LOG 
+2016/10/16 16:42:34     insert into SHOOTING_LOG(user,score) values(63,110)
+2016/10/16 16:42:35    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '110'
+2016/10/16 16:42:35     select count(*) from SHOOTING_LOG 
+2016/10/16 16:44:26     insert into SHOOTING_LOG(user,score) values(63,200)
+2016/10/16 16:44:26     insert into SHOOTING_LOG(user,score) values(63,200)
+2016/10/16 16:44:26    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '200'
+2016/10/16 16:44:26     select count(*) from SHOOTING_LOG 
+2016/10/16 16:44:26    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '0'
+2016/10/16 16:44:27     select count(*) from SHOOTING_LOG 
+2016/10/16 16:44:32    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/16 16:45:56     insert into SHOOTING_LOG(user,score) values(63,200)
+2016/10/16 16:45:56    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '200'
+2016/10/16 16:45:56     select count(*) from SHOOTING_LOG 
+2016/10/16 16:46:36     insert into SHOOTING_LOG(user,score) values(63,200)
+2016/10/16 16:46:37     insert into SHOOTING_LOG(user,score) values(63,200)
+2016/10/16 16:46:37    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '200'
+2016/10/16 16:46:37     select count(*) from SHOOTING_LOG 
+2016/10/16 16:46:37    SELECT COUNT(*) +1 as rank   FROM SHOOTING_LOG s2     WHERE s2.score > '200'
+2016/10/16 16:46:37     select count(*) from SHOOTING_LOG 

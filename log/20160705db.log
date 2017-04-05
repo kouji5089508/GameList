@@ -1,0 +1,1798 @@
+2016/07/05 12:36:25    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 12:36:25    update user set count=39,lastdate=now() where id='12'
+2016/07/05 12:36:26    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:36:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:37:00    select id,type,text,picture from theme where not id in(25) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:37:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:37:32    select id,type,text,picture from theme where not id in(25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:38:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:38:05    select id,type,text,picture from theme where not id in(25,35,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:38:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:38:38    select id,type,text,picture from theme where not id in(25,35,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:39:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:39:11    select id,type,text,picture from theme where not id in(25,35,24,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:39:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:39:45    select id,type,text,picture from theme where not id in(25,35,24,36,21,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:40:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:40:17    select id,type,text,picture from theme where not id in(25,35,24,36,21,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:40:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:40:50    select id,type,text,picture from theme where not id in(25,35,24,36,21,22,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:41:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:41:23    select id,type,text,picture from theme where not id in(25,35,24,36,21,22,23,34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:41:23    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 12:41:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:41:56    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:42:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:42:30    select id,type,text,picture from theme where not id in(24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:43:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:43:02    select id,type,text,picture from theme where not id in(24,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:43:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:43:35    select id,type,text,picture from theme where not id in(24,22,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:44:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:44:08    select id,type,text,picture from theme where not id in(24,22,23,34,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:44:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:44:41    select id,type,text,picture from theme where not id in(24,22,23,34,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:45:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:45:14    select id,type,text,picture from theme where not id in(24,22,23,34,35,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:45:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:45:47    select id,type,text,picture from theme where not id in(24,22,23,34,35,21,25,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:46:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:46:19    select id,type,text,picture from theme where not id in(24,22,23,34,35,21,25,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:46:20    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 12:46:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:46:52    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:47:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:47:25    select id,type,text,picture from theme where not id in(23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:47:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:47:58    select id,type,text,picture from theme where not id in(23,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:48:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:48:31    select id,type,text,picture from theme where not id in(23,24,34,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:49:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:49:04    select id,type,text,picture from theme where not id in(23,24,34,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:49:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:49:37    select id,type,text,picture from theme where not id in(23,24,34,35,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:49:41    update user set rating=1500 where id=12
+2016/07/05 12:49:49    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 12:50:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:50:10    select id,type,text,picture from theme where not id in(23,24,34,35,21,36,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:50:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:50:42    select id,type,text,picture from theme where not id in(23,24,34,35,21,36,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:51:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:51:14    select id,type,text,picture from theme where not id in(23,24,34,35,21,36,22,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:51:14    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 12:51:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:51:46    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:52:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:52:19    select id,type,text,picture from theme where not id in(36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:52:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:52:51    select id,type,text,picture from theme where not id in(36,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:53:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:53:23    select id,type,text,picture from theme where not id in(36,21,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:53:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:53:58    select id,type,text,picture from theme where not id in(36,21,23,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:54:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:54:31    select id,type,text,picture from theme where not id in(36,21,23,34,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:55:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:55:03    select id,type,text,picture from theme where not id in(36,21,23,34,25,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:55:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:55:35    select id,type,text,picture from theme where not id in(36,21,23,34,25,35,22,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:56:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:56:07    select id,type,text,picture from theme where not id in(36,21,23,34,25,35,22,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:56:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 12:56:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:56:40    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:57:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:57:12    select id,type,text,picture from theme where not id in(34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:57:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:57:45    select id,type,text,picture from theme where not id in(34,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:58:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:58:17    select id,type,text,picture from theme where not id in(34,23,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:58:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:58:51    select id,type,text,picture from theme where not id in(34,23,24,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:59:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:59:23    select id,type,text,picture from theme where not id in(34,23,24,36,35,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 12:59:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 12:59:56    select id,type,text,picture from theme where not id in(34,23,24,36,35,37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:00:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:00:29    select id,type,text,picture from theme where not id in(34,23,24,36,35,37,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:00:36    update user set rating=1500 where id=12
+2016/07/05 13:00:46    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 13:01:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:01:03    select id,type,text,picture from theme where not id in(34,23,24,36,35,37,22,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:01:04    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:01:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:01:37    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:02:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:02:10    select id,type,text,picture from theme where not id in(21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:02:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:02:42    select id,type,text,picture from theme where not id in(21,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:03:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:03:15    select id,type,text,picture from theme where not id in(21,23,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:03:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:03:48    select id,type,text,picture from theme where not id in(21,23,35,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:04:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:04:21    select id,type,text,picture from theme where not id in(21,23,35,22,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:04:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:04:55    select id,type,text,picture from theme where not id in(21,23,35,22,36,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:05:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:05:27    select id,type,text,picture from theme where not id in(21,23,35,22,36,34,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:07:17    update user set rating=1500 where id=12
+2016/07/05 13:07:33    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 13:07:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:07:57    select id,type,text,picture from theme where not id in(21,23,35,22,36,34,24,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:07:57    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:08:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:08:30    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:09:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:09:21    select id,type,text,picture from theme where not id in(34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:09:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:09:55    select id,type,text,picture from theme where not id in(34,22,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:10:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:10:27    select id,type,text,picture from theme where not id in(34,22,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:10:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:11:00    select id,type,text,picture from theme where not id in(34,22,24,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:11:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:11:32    select id,type,text,picture from theme where not id in(34,22,24,23,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:12:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:12:05    select id,type,text,picture from theme where not id in(34,22,24,23,35,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:12:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:12:37    select id,type,text,picture from theme where not id in(34,22,24,23,35,36,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:13:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:13:09    select id,type,text,picture from theme where not id in(34,22,24,23,35,36,21,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:13:10    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:13:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:13:43    select id,type,text,picture from theme where not id in(25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:14:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:14:16    select id,type,text,picture from theme where not id in(25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:14:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:14:49    select id,type,text,picture from theme where not id in(25,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:15:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:15:22    select id,type,text,picture from theme where not id in(25,35,36,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:15:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:15:55    select id,type,text,picture from theme where not id in(25,35,36,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:16:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:16:29    select id,type,text,picture from theme where not id in(25,35,36,22,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:17:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:17:01    select id,type,text,picture from theme where not id in(25,35,36,22,34,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:17:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:17:34    select id,type,text,picture from theme where not id in(25,35,36,22,34,24,23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:18:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:18:05    select id,type,text,picture from theme where not id in(25,35,36,22,34,24,23,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:18:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:18:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:18:39    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:19:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:19:12    select id,type,text,picture from theme where not id in(36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:19:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:19:45    select id,type,text,picture from theme where not id in(36,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:20:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:20:18    select id,type,text,picture from theme where not id in(36,35,25,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:20:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:20:52    select id,type,text,picture from theme where not id in(36,35,25,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:21:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:21:24    select id,type,text,picture from theme where not id in(36,35,25,21,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:21:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:21:56    select id,type,text,picture from theme where not id in(36,35,25,21,24,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:22:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:22:29    select id,type,text,picture from theme where not id in(36,35,25,21,24,23,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:23:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:23:02    select id,type,text,picture from theme where not id in(36,35,25,21,24,23,34,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:23:02    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:23:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:23:35    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:24:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:24:07    select id,type,text,picture from theme where not id in(24,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:24:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:24:41    select id,type,text,picture from theme where not id in(24,21,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:25:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:25:15    select id,type,text,picture from theme where not id in(24,21,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:25:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:25:47    select id,type,text,picture from theme where not id in(24,21,22,36,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:26:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:26:20    select id,type,text,picture from theme where not id in(24,21,22,36,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:26:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:26:52    select id,type,text,picture from theme where not id in(24,21,22,36,23,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:27:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:27:24    select id,type,text,picture from theme where not id in(24,21,22,36,23,37,25,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:27:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:27:56    select id,type,text,picture from theme where not id in(24,21,22,36,23,37,25,34,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:27:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:28:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:28:30    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:29:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:29:02    select id,type,text,picture from theme where not id in(23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:29:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:29:36    select id,type,text,picture from theme where not id in(23,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:30:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:30:08    select id,type,text,picture from theme where not id in(23,35,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:30:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:30:41    select id,type,text,picture from theme where not id in(23,35,22,34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:31:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:31:14    select id,type,text,picture from theme where not id in(23,35,22,34,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:31:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:31:46    select id,type,text,picture from theme where not id in(23,35,22,34,37,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:32:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:32:19    select id,type,text,picture from theme where not id in(23,35,22,34,37,25,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:32:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:32:51    select id,type,text,picture from theme where not id in(23,35,22,34,37,25,24,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:32:52    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:33:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:33:25    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:33:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:33:58    select id,type,text,picture from theme where not id in(22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:34:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:34:31    select id,type,text,picture from theme where not id in(22,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:35:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:35:04    select id,type,text,picture from theme where not id in(22,21,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:35:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:35:38    select id,type,text,picture from theme where not id in(22,21,24,37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:36:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:36:10    select id,type,text,picture from theme where not id in(22,21,24,37,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:36:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:36:42    select id,type,text,picture from theme where not id in(22,21,24,37,34,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:37:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:37:14    select id,type,text,picture from theme where not id in(22,21,24,37,34,23,36,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:37:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:37:47    select id,type,text,picture from theme where not id in(22,21,24,37,34,23,36,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:37:47    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:38:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:38:20    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:38:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:38:53    select id,type,text,picture from theme where not id in(34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:39:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:39:25    select id,type,text,picture from theme where not id in(34,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:39:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:39:59    select id,type,text,picture from theme where not id in(34,24,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:40:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:40:31    select id,type,text,picture from theme where not id in(34,24,36,35,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:41:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:41:04    select id,type,text,picture from theme where not id in(34,24,36,35,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:41:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:41:37    select id,type,text,picture from theme where not id in(34,24,36,35,23,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:42:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:42:10    select id,type,text,picture from theme where not id in(34,24,36,35,23,22,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:42:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:42:43    select id,type,text,picture from theme where not id in(34,24,36,35,23,22,25,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:42:43    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:43:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:43:16    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:43:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:43:49    select id,type,text,picture from theme where not id in(36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:44:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:44:22    select id,type,text,picture from theme where not id in(36,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:44:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:44:55    select id,type,text,picture from theme where not id in(36,35,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:45:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:45:27    select id,type,text,picture from theme where not id in(36,35,34,25,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:45:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:46:01    select id,type,text,picture from theme where not id in(36,35,34,25,21,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:46:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:46:33    select id,type,text,picture from theme where not id in(36,35,34,25,21,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:47:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:47:06    select id,type,text,picture from theme where not id in(36,35,34,25,21,22,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:47:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:47:39    select id,type,text,picture from theme where not id in(36,35,34,25,21,22,23,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:47:39    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:48:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:48:12    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:48:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:48:45    select id,type,text,picture from theme where not id in(34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:49:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:49:18    select id,type,text,picture from theme where not id in(34,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:49:27    update user set rating=1500 where id=12
+2016/07/05 13:49:30    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 13:49:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:49:52    select id,type,text,picture from theme where not id in(34,37,35,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:50:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:50:25    select id,type,text,picture from theme where not id in(34,37,35,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:50:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:50:57    select id,type,text,picture from theme where not id in(34,37,35,24,36,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:51:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:51:29    select id,type,text,picture from theme where not id in(34,37,35,24,36,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:52:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:52:01    select id,type,text,picture from theme where not id in(34,37,35,24,36,23,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:52:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:52:34    select id,type,text,picture from theme where not id in(34,37,35,24,36,23,22,25,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:52:35    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 13:53:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:53:09    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:54:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:54:26    select id,type,text,picture from theme where not id in(21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:54:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:54:58    select id,type,text,picture from theme where not id in(21,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:55:11    update user set rating=1500 where id=12
+2016/07/05 13:56:14    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 13:56:14    update user set count=40,lastdate=now() where id='12'
+2016/07/05 13:56:15    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:56:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:56:49    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:57:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:57:22    select id,type,text,picture from theme where not id in(23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:57:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:57:55    select id,type,text,picture from theme where not id in(23,22,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:58:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:58:28    select id,type,text,picture from theme where not id in(23,22,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:59:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:59:01    select id,type,text,picture from theme where not id in(23,22,24,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 13:59:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 13:59:34    select id,type,text,picture from theme where not id in(23,22,24,25,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:00:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:00:07    select id,type,text,picture from theme where not id in(23,22,24,25,35,34,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:00:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:00:40    select id,type,text,picture from theme where not id in(23,22,24,25,35,34,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:01:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:01:13    select id,type,text,picture from theme where not id in(23,22,24,25,35,34,36,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:01:13    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:01:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:01:46    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:02:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:02:19    select id,type,text,picture from theme where not id in(35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:02:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:02:52    select id,type,text,picture from theme where not id in(35,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:03:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:03:23    select id,type,text,picture from theme where not id in(35,21,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:03:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:03:56    select id,type,text,picture from theme where not id in(35,21,34,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:04:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:04:30    select id,type,text,picture from theme where not id in(35,21,34,25,37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:05:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:05:02    select id,type,text,picture from theme where not id in(35,21,34,25,37,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:05:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:05:35    select id,type,text,picture from theme where not id in(35,21,34,25,37,22,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:06:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:06:08    select id,type,text,picture from theme where not id in(35,21,34,25,37,22,23,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:06:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:06:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:06:41    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:07:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:07:13    select id,type,text,picture from theme where not id in(37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:07:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:07:46    select id,type,text,picture from theme where not id in(37,35,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:08:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:08:19    select id,type,text,picture from theme where not id in(37,35,23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:08:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:08:52    select id,type,text,picture from theme where not id in(37,35,23,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:09:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:09:24    select id,type,text,picture from theme where not id in(37,35,23,21,24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:09:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:09:56    select id,type,text,picture from theme where not id in(37,35,23,21,24,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:10:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:10:28    select id,type,text,picture from theme where not id in(37,35,23,21,24,22,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:11:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:11:01    select id,type,text,picture from theme where not id in(37,35,23,21,24,22,34,25,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:11:01    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:11:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:11:34    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:12:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:12:07    select id,type,text,picture from theme where not id in(22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:12:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:12:40    select id,type,text,picture from theme where not id in(22,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:13:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:13:14    select id,type,text,picture from theme where not id in(22,21,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:13:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:13:46    select id,type,text,picture from theme where not id in(22,21,25,37,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:14:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:14:19    select id,type,text,picture from theme where not id in(22,21,25,37,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:14:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:14:52    select id,type,text,picture from theme where not id in(22,21,25,37,23,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:15:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:15:25    select id,type,text,picture from theme where not id in(22,21,25,37,23,24,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:15:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:15:58    select id,type,text,picture from theme where not id in(22,21,25,37,23,24,35,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:15:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:16:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:16:30    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:17:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:17:04    select id,type,text,picture from theme where not id in(36,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:17:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:17:36    select id,type,text,picture from theme where not id in(36,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:18:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:18:09    select id,type,text,picture from theme where not id in(36,22,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:18:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:18:41    select id,type,text,picture from theme where not id in(36,22,23,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:19:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:19:14    select id,type,text,picture from theme where not id in(36,22,23,35,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:19:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:19:47    select id,type,text,picture from theme where not id in(36,22,23,35,25,37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:20:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:20:20    select id,type,text,picture from theme where not id in(36,22,23,35,25,37,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:20:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:20:53    select id,type,text,picture from theme where not id in(36,22,23,35,25,37,34,24,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:20:53    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:21:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:21:26    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:21:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:21:59    select id,type,text,picture from theme where not id in(24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:22:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:22:31    select id,type,text,picture from theme where not id in(24,37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:23:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:23:03    select id,type,text,picture from theme where not id in(24,37,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:23:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:23:37    select id,type,text,picture from theme where not id in(24,37,34,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:24:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:24:09    select id,type,text,picture from theme where not id in(24,37,34,22,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:24:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:24:41    select id,type,text,picture from theme where not id in(24,37,34,22,21,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:25:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:25:14    select id,type,text,picture from theme where not id in(24,37,34,22,21,23,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:25:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:25:47    select id,type,text,picture from theme where not id in(24,37,34,22,21,23,36,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:25:47    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:26:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:26:20    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:26:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:26:53    select id,type,text,picture from theme where not id in(35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:27:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:27:25    select id,type,text,picture from theme where not id in(35,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:27:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:27:58    select id,type,text,picture from theme where not id in(35,25,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:28:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:28:31    select id,type,text,picture from theme where not id in(35,25,23,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:28:54    update user set rating=1500 where id=12
+2016/07/05 14:28:58    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 14:29:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:29:05    select id,type,text,picture from theme where not id in(35,25,23,22,34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:29:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:29:37    select id,type,text,picture from theme where not id in(35,25,23,22,34,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:30:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:30:10    select id,type,text,picture from theme where not id in(35,25,23,22,34,21,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:30:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:30:43    select id,type,text,picture from theme where not id in(35,25,23,22,34,21,36,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:30:43    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:31:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:31:16    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:31:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:31:49    select id,type,text,picture from theme where not id in(21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:32:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:32:22    select id,type,text,picture from theme where not id in(21,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:32:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:32:55    select id,type,text,picture from theme where not id in(21,24,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:33:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:33:27    select id,type,text,picture from theme where not id in(21,24,37,36,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:34:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:34:01    select id,type,text,picture from theme where not id in(21,24,37,36,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:34:08    update user set rating=1500 where id=12
+2016/07/05 14:34:12    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 14:34:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:34:33    select id,type,text,picture from theme where not id in(21,24,37,36,25,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:35:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:35:05    select id,type,text,picture from theme where not id in(21,24,37,36,25,22,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:35:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:35:38    select id,type,text,picture from theme where not id in(21,24,37,36,25,22,23,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:35:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:36:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:36:10    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:36:11    update user set rating=1500 where id=12
+2016/07/05 14:36:13    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 14:36:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:36:42    select id,type,text,picture from theme where not id in(34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:38:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:38:39    select id,type,text,picture from theme where not id in(34,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:39:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:39:11    select id,type,text,picture from theme where not id in(34,22,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:39:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:39:44    select id,type,text,picture from theme where not id in(34,22,37,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:40:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:40:17    select id,type,text,picture from theme where not id in(34,22,37,36,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:40:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:40:50    select id,type,text,picture from theme where not id in(34,22,37,36,21,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:41:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:41:24    select id,type,text,picture from theme where not id in(34,22,37,36,21,24,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:41:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:41:56    select id,type,text,picture from theme where not id in(34,22,37,36,21,24,25,35,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:41:56    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:42:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:42:29    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:42:37    update user set rating=1500 where id=12
+2016/07/05 14:42:41    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 14:43:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:43:01    select id,type,text,picture from theme where not id in(34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:43:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:43:33    select id,type,text,picture from theme where not id in(34,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:44:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:44:06    select id,type,text,picture from theme where not id in(34,22,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:44:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:44:38    select id,type,text,picture from theme where not id in(34,22,37,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:45:08    update user set rating=1500 where id=12
+2016/07/05 14:45:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:45:12    select id,type,text,picture from theme where not id in(34,22,37,21,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:45:50    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 14:45:50    update user set count=41,lastdate=now() where id='12'
+2016/07/05 14:45:51    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:46:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:46:27    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:46:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:46:59    select id,type,text,picture from theme where not id in(23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:48:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:48:28    select id,type,text,picture from theme where not id in(23,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:49:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:49:01    select id,type,text,picture from theme where not id in(23,35,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:49:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:49:34    select id,type,text,picture from theme where not id in(23,35,25,24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:50:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:50:07    select id,type,text,picture from theme where not id in(23,35,25,24,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:50:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:50:40    select id,type,text,picture from theme where not id in(23,35,25,24,22,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:51:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:51:13    select id,type,text,picture from theme where not id in(23,35,25,24,22,36,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:51:18    update user set rating=1500 where id=12
+2016/07/05 14:51:21    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 14:51:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:51:46    select id,type,text,picture from theme where not id in(23,35,25,24,22,36,21,37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:51:46    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 14:52:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:52:18    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:52:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:52:51    select id,type,text,picture from theme where not id in(37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 14:53:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 14:53:23    select id,type,text,picture from theme where not id in(37,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:02:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:02:24    select id,type,text,picture from theme where not id in(37,22,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:02:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:02:57    select id,type,text,picture from theme where not id in(37,22,21,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:03:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:03:30    select id,type,text,picture from theme where not id in(37,22,21,25,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:04:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:04:03    select id,type,text,picture from theme where not id in(37,22,21,25,23,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:04:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:04:36    select id,type,text,picture from theme where not id in(37,22,21,25,23,24,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:05:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:05:08    select id,type,text,picture from theme where not id in(37,22,21,25,23,24,35,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:05:09    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:05:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:05:41    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:06:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:06:14    select id,type,text,picture from theme where not id in(24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:06:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:06:46    select id,type,text,picture from theme where not id in(24,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:07:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:07:20    select id,type,text,picture from theme where not id in(24,35,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:07:29    update user set rating=1500 where id=12
+2016/07/05 15:07:33    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:07:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:07:51    select id,type,text,picture from theme where not id in(24,35,25,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:08:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:08:25    select id,type,text,picture from theme where not id in(24,35,25,22,37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:08:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:08:57    select id,type,text,picture from theme where not id in(24,35,25,22,37,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:09:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:09:30    select id,type,text,picture from theme where not id in(24,35,25,22,37,34,23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:10:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:10:03    select id,type,text,picture from theme where not id in(24,35,25,22,37,34,23,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:10:03    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:10:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:10:37    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:11:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:11:09    select id,type,text,picture from theme where not id in(22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:11:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:11:42    select id,type,text,picture from theme where not id in(22,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:12:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:12:15    select id,type,text,picture from theme where not id in(22,23,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:12:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:12:48    select id,type,text,picture from theme where not id in(22,23,36,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:13:01    update user set rating=1500 where id=12
+2016/07/05 15:13:05    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:13:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:13:23    select id,type,text,picture from theme where not id in(22,23,36,24,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:13:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:13:56    select id,type,text,picture from theme where not id in(22,23,36,24,37,21,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:14:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:14:29    select id,type,text,picture from theme where not id in(22,23,36,24,37,21,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:15:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:15:02    select id,type,text,picture from theme where not id in(22,23,36,24,37,21,35,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:15:02    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:15:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:15:34    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:16:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:16:06    select id,type,text,picture from theme where not id in(35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:16:36    update user set rating=1500 where id=12
+2016/07/05 15:16:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:16:39    select id,type,text,picture from theme where not id in(35,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:16:41    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:17:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:17:14    select id,type,text,picture from theme where not id in(35,22,34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:17:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:17:47    select id,type,text,picture from theme where not id in(35,22,34,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:18:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:18:21    select id,type,text,picture from theme where not id in(35,22,34,21,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:18:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:18:53    select id,type,text,picture from theme where not id in(35,22,34,21,24,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:19:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:19:26    select id,type,text,picture from theme where not id in(35,22,34,21,24,25,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:19:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:19:57    select id,type,text,picture from theme where not id in(35,22,34,21,24,25,23,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:19:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:20:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:20:30    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:21:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:21:04    select id,type,text,picture from theme where not id in(23,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:21:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:21:37    select id,type,text,picture from theme where not id in(23,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:22:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:22:09    select id,type,text,picture from theme where not id in(23,25,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:22:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:22:41    select id,type,text,picture from theme where not id in(23,25,35,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:23:00    update user set rating=1500 where id=12
+2016/07/05 15:25:58    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:25:58    update user set count=42,lastdate=now() where id='12'
+2016/07/05 15:25:58    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:26:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:26:32    select id,type,text,picture from theme where not id in(25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:27:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:27:05    select id,type,text,picture from theme where not id in(25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:27:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:27:37    select id,type,text,picture from theme where not id in(25,37,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:27:49    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 15:28:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:28:09    select id,type,text,picture from theme where not id in(25,37,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:28:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:28:41    select id,type,text,picture from theme where not id in(25,37,24,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:29:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:29:12    select id,type,text,picture from theme where not id in(25,37,24,34,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:29:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:29:44    select id,type,text,picture from theme where not id in(25,37,24,34,22,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:30:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:30:15    select id,type,text,picture from theme where not id in(25,37,24,34,22,21,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:30:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:30:47    select id,type,text,picture from theme where not id in(25,37,24,34,22,21,23,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:30:47    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:31:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:31:18    select id,type,text,picture from theme where not id in(25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:31:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:31:50    select id,type,text,picture from theme where not id in(25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:32:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:32:21    select id,type,text,picture from theme where not id in(25,24,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:32:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:32:53    select id,type,text,picture from theme where not id in(25,24,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:33:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:33:24    select id,type,text,picture from theme where not id in(25,24,21,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:33:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:33:55    select id,type,text,picture from theme where not id in(25,24,21,36,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:34:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:34:27    select id,type,text,picture from theme where not id in(25,24,21,36,34,22,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:34:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:34:58    select id,type,text,picture from theme where not id in(25,24,21,36,34,22,35,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:35:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:35:29    select id,type,text,picture from theme where not id in(25,24,21,36,34,22,35,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:35:29    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:36:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:36:00    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:36:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:36:32    select id,type,text,picture from theme where not id in(37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:37:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:37:03    select id,type,text,picture from theme where not id in(37,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:37:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:37:35    select id,type,text,picture from theme where not id in(37,22,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:38:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:38:06    select id,type,text,picture from theme where not id in(37,22,25,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:38:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:38:38    select id,type,text,picture from theme where not id in(37,22,25,23,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:39:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:39:09    select id,type,text,picture from theme where not id in(37,22,25,23,36,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:39:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:39:41    select id,type,text,picture from theme where not id in(37,22,25,23,36,24,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:40:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:40:12    select id,type,text,picture from theme where not id in(37,22,25,23,36,24,35,34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:40:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:40:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:40:44    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:41:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:41:15    select id,type,text,picture from theme where not id in(37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:41:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:41:47    select id,type,text,picture from theme where not id in(37,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:42:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:42:18    select id,type,text,picture from theme where not id in(37,36,34,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:42:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:42:50    select id,type,text,picture from theme where not id in(37,36,34,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:43:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:43:21    select id,type,text,picture from theme where not id in(37,36,34,35,22,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:43:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:43:53    select id,type,text,picture from theme where not id in(37,36,34,35,22,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:44:05    update user set rating=1500 where id=12
+2016/07/05 15:44:09    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:44:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:44:25    select id,type,text,picture from theme where not id in(37,36,34,35,22,24,25,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:44:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:44:57    select id,type,text,picture from theme where not id in(37,36,34,35,22,24,25,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:44:58    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:45:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:45:28    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:45:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:46:00    select id,type,text,picture from theme where not id in(23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:46:08    update user set rating=1500 where id=12
+2016/07/05 15:46:10    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:46:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:46:31    select id,type,text,picture from theme where not id in(23,21,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:47:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:47:03    select id,type,text,picture from theme where not id in(23,21,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:47:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:47:34    select id,type,text,picture from theme where not id in(23,21,22,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:48:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:48:05    select id,type,text,picture from theme where not id in(23,21,22,36,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:48:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:48:37    select id,type,text,picture from theme where not id in(23,21,22,36,24,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:49:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:49:08    select id,type,text,picture from theme where not id in(23,21,22,36,24,35,34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:49:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:49:40    select id,type,text,picture from theme where not id in(23,21,22,36,24,35,34,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:49:40    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 15:50:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:50:12    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:50:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:50:44    select id,type,text,picture from theme where not id in(37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:51:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:51:14    select id,type,text,picture from theme where not id in(37,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:51:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:51:45    select id,type,text,picture from theme where not id in(37,25,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:52:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:52:16    select id,type,text,picture from theme where not id in(37,25,23,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:52:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:52:48    select id,type,text,picture from theme where not id in(37,25,23,24,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:52:53    update user set rating=1500 where id=12
+2016/07/05 15:52:57    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:53:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:53:20    select id,type,text,picture from theme where not id in(37,25,23,24,36,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:53:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:53:53    select id,type,text,picture from theme where not id in(37,25,23,24,36,35,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:55:18    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:55:18    update user set count=43,lastdate=now() where id='12'
+2016/07/05 15:55:19    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:55:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:55:44    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:56:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:56:17    select id,type,text,picture from theme where not id in(36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:56:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:56:50    select id,type,text,picture from theme where not id in(36,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:57:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:57:23    select id,type,text,picture from theme where not id in(36,24,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:57:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:57:56    select id,type,text,picture from theme where not id in(36,24,37,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:58:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:58:29    select id,type,text,picture from theme where not id in(36,24,37,25,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:59:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:59:02    select id,type,text,picture from theme where not id in(36,24,37,25,35,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:59:29    update user set rating=1500 where id=12
+2016/07/05 15:59:33    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 15:59:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:59:36    select id,type,text,picture from theme where not id in(36,24,37,25,35,22,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 15:59:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 15:59:59    select id,type,text,picture from theme where not id in(36,24,37,25,35,22,21,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:00:01    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:00:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:00:32    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:01:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:01:03    select id,type,text,picture from theme where not id in(23,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:01:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:01:35    select id,type,text,picture from theme where not id in(23,25,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:02:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:02:09    select id,type,text,picture from theme where not id in(23,25,34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:02:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:02:41    select id,type,text,picture from theme where not id in(23,25,34,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:03:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:03:14    select id,type,text,picture from theme where not id in(23,25,34,21,24,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:03:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:03:46    select id,type,text,picture from theme where not id in(23,25,34,21,24,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:04:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:04:18    select id,type,text,picture from theme where not id in(23,25,34,21,24,36,37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:04:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:04:51    select id,type,text,picture from theme where not id in(23,25,34,21,24,36,37,22,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:04:52    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:05:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:05:23    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:05:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:05:55    select id,type,text,picture from theme where not id in(37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:06:12    update user set rating=1500 where id=12
+2016/07/05 16:06:17    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 16:06:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:06:27    select id,type,text,picture from theme where not id in(37,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:06:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:06:58    select id,type,text,picture from theme where not id in(37,25,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:07:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:07:30    select id,type,text,picture from theme where not id in(37,25,35,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:08:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:08:01    select id,type,text,picture from theme where not id in(37,25,35,36,24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:08:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:08:35    select id,type,text,picture from theme where not id in(37,25,35,36,24,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:09:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:09:06    select id,type,text,picture from theme where not id in(37,25,35,36,24,22,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:09:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:09:39    select id,type,text,picture from theme where not id in(37,25,35,36,24,22,34,23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:09:39    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:10:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:10:12    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:10:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:10:44    select id,type,text,picture from theme where not id in(22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:11:08    update user set rating=1500 where id=12
+2016/07/05 16:11:11    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 16:11:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:11:19    select id,type,text,picture from theme where not id in(22,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:11:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:11:51    select id,type,text,picture from theme where not id in(22,36,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:12:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:12:11    select id,type,text,picture from theme where not id in(22,36,37,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:12:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:12:32    select id,type,text,picture from theme where not id in(22,36,37,21,25,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:12:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:12:56    select id,type,text,picture from theme where not id in(22,36,37,21,25,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:13:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:13:42    select id,type,text,picture from theme where not id in(22,36,37,21,25,34,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:14:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:14:37    select id,type,text,picture from theme where not id in(22,36,37,21,25,34,23,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:14:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:15:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:15:02    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:15:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:15:26    select id,type,text,picture from theme where not id in(21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:15:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:15:58    select id,type,text,picture from theme where not id in(21,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:16:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:16:30    select id,type,text,picture from theme where not id in(21,23,34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:17:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:17:03    select id,type,text,picture from theme where not id in(21,23,34,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:17:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:17:35    select id,type,text,picture from theme where not id in(21,23,34,37,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:18:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:18:08    select id,type,text,picture from theme where not id in(21,23,34,37,36,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:18:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:18:40    select id,type,text,picture from theme where not id in(21,23,34,37,36,24,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:19:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:19:12    select id,type,text,picture from theme where not id in(21,23,34,37,36,24,35,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:19:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:19:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:19:46    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:20:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:20:19    select id,type,text,picture from theme where not id in(22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:20:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:20:51    select id,type,text,picture from theme where not id in(22,23,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:21:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:21:24    select id,type,text,picture from theme where not id in(22,23,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:21:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:21:56    select id,type,text,picture from theme where not id in(22,23,24,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:22:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:22:28    select id,type,text,picture from theme where not id in(22,23,24,35,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:23:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:23:02    select id,type,text,picture from theme where not id in(22,23,24,35,21,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:23:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:23:33    select id,type,text,picture from theme where not id in(22,23,24,35,21,37,25,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:24:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:24:06    select id,type,text,picture from theme where not id in(22,23,24,35,21,37,25,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:24:06    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:24:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:24:40    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:25:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:25:13    select id,type,text,picture from theme where not id in(22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:25:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:25:46    select id,type,text,picture from theme where not id in(22,37,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:26:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:26:18    select id,type,text,picture from theme where not id in(22,37,24,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:26:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:26:52    select id,type,text,picture from theme where not id in(22,37,24,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:27:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:27:25    select id,type,text,picture from theme where not id in(22,37,24,21,25,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:27:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:27:58    select id,type,text,picture from theme where not id in(22,37,24,21,25,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:28:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:28:31    select id,type,text,picture from theme where not id in(22,37,24,21,25,34,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:29:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:29:03    select id,type,text,picture from theme where not id in(22,37,24,21,25,34,23,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:29:04    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:29:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:29:36    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:30:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:30:10    select id,type,text,picture from theme where not id in(24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:30:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:30:43    select id,type,text,picture from theme where not id in(24,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:31:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:31:16    select id,type,text,picture from theme where not id in(24,22,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:31:23    update user set rating=1500 where id=12
+2016/07/05 16:31:27    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 16:32:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:32:25    select id,type,text,picture from theme where not id in(24,22,34,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:32:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:32:58    select id,type,text,picture from theme where not id in(24,22,34,23,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:33:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:33:51    select id,type,text,picture from theme where not id in(24,22,34,23,35,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:34:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:34:23    select id,type,text,picture from theme where not id in(24,22,34,23,35,25,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:34:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:34:55    select id,type,text,picture from theme where not id in(24,22,34,23,35,25,37,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:34:55    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 16:35:03    update user set rating=1500 where id=12
+2016/07/05 16:35:40    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 16:35:40    update user set count=44,lastdate=now() where id='12'
+2016/07/05 16:35:40    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:36:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:36:15    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:36:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:36:48    select id,type,text,picture from theme where not id in(22,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:37:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:37:21    select id,type,text,picture from theme where not id in(22,35,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 16:37:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 16:37:55    select id,type,text,picture from theme where not id in(22,35,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:50:48    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='10' group by u.id
+2016/07/05 17:50:48    update user set count=48,lastdate=now() where id='10'
+2016/07/05 17:50:49    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:51:04    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 17:51:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:51:23    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:51:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:51:55    select id,type,text,picture from theme where not id in(34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:52:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:52:27    select id,type,text,picture from theme where not id in(34,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:52:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:53:00    select id,type,text,picture from theme where not id in(34,23,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:53:01    update user set rating=1500 where id=12
+2016/07/05 17:53:05    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 17:53:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:53:31    select id,type,text,picture from theme where not id in(34,23,35,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:54:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:54:04    select id,type,text,picture from theme where not id in(34,23,35,22,37,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:54:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:54:37    select id,type,text,picture from theme where not id in(34,23,35,22,37,24,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:54:46    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 17:55:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:55:09    select id,type,text,picture from theme where not id in(34,23,35,22,37,24,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:55:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:55:40    select id,type,text,picture from theme where not id in(34,23,35,22,37,24,21,36,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:55:41    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 17:56:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:56:12    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:56:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:56:44    select id,type,text,picture from theme where not id in(21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:57:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:57:17    select id,type,text,picture from theme where not id in(21,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:57:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:57:49    select id,type,text,picture from theme where not id in(21,36,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:57:52    update user set rating=1500 where id=11
+2016/07/05 17:57:57    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 17:58:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:58:21    select id,type,text,picture from theme where not id in(21,36,35,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:58:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:58:53    select id,type,text,picture from theme where not id in(21,36,35,22,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:59:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:59:25    select id,type,text,picture from theme where not id in(21,36,35,22,34,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 17:59:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 17:59:58    select id,type,text,picture from theme where not id in(21,36,35,22,34,25,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:00:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:00:27    select id,type,text,picture from theme where not id in(21,36,35,22,34,25,24,37,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:00:28    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 18:01:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:01:00    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:01:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:01:33    select id,type,text,picture from theme where not id in(23,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:02:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:02:06    select id,type,text,picture from theme where not id in(23,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:02:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:02:39    select id,type,text,picture from theme where not id in(23,25,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:03:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:03:12    select id,type,text,picture from theme where not id in(23,25,35,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:03:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:03:45    select id,type,text,picture from theme where not id in(23,25,35,21,37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:04:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:04:17    select id,type,text,picture from theme where not id in(23,25,35,21,37,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:04:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:04:49    select id,type,text,picture from theme where not id in(23,25,35,21,37,22,34,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:05:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:05:21    select id,type,text,picture from theme where not id in(23,25,35,21,37,22,34,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:05:21    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 18:05:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:05:53    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:06:10    update user set rating=1500 where id=11
+2016/07/05 18:06:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:06:26    select id,type,text,picture from theme where not id in(24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:06:49    update user set rating=1500 where id=12
+2016/07/05 18:07:28    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:07:28    update user set count=45,lastdate=now() where id='12'
+2016/07/05 18:07:29    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:08:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:08:03    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:08:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:08:36    select id,type,text,picture from theme where not id in(35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:09:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:09:08    select id,type,text,picture from theme where not id in(35,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:09:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:09:41    select id,type,text,picture from theme where not id in(35,22,36,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:10:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:10:14    select id,type,text,picture from theme where not id in(35,22,36,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:10:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:10:47    select id,type,text,picture from theme where not id in(35,22,36,23,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:11:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:11:19    select id,type,text,picture from theme where not id in(35,22,36,23,37,25,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:11:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:11:52    select id,type,text,picture from theme where not id in(35,22,36,23,37,25,34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:12:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:12:23    select id,type,text,picture from theme where not id in(35,22,36,23,37,25,34,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:12:24    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 18:12:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:12:57    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:13:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:13:29    select id,type,text,picture from theme where not id in(34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:14:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:14:02    select id,type,text,picture from theme where not id in(34,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:14:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:14:35    select id,type,text,picture from theme where not id in(34,25,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:15:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:15:08    select id,type,text,picture from theme where not id in(34,25,37,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:17:29    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:17:29    update user set count=46,lastdate=now() where id='12'
+2016/07/05 18:17:29    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:18:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:18:02    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:18:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:18:34    select id,type,text,picture from theme where not id in(35,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:20:25    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:20:25    update user set count=47,lastdate=now() where id='12'
+2016/07/05 18:20:25    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:20:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:21:00    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:21:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:21:33    select id,type,text,picture from theme where not id in(21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:22:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:22:06    select id,type,text,picture from theme where not id in(21,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:22:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:22:39    select id,type,text,picture from theme where not id in(21,23,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:23:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:23:12    select id,type,text,picture from theme where not id in(21,23,22,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:23:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:23:45    select id,type,text,picture from theme where not id in(21,23,22,37,36,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:24:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:24:18    select id,type,text,picture from theme where not id in(21,23,22,37,36,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:24:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:24:51    select id,type,text,picture from theme where not id in(21,23,22,37,36,25,35,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:25:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:25:23    select id,type,text,picture from theme where not id in(21,23,22,37,36,25,35,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:25:24    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 18:25:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:25:57    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:26:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:26:29    select id,type,text,picture from theme where not id in(23,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:27:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:27:01    select id,type,text,picture from theme where not id in(23,25,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:27:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:27:35    select id,type,text,picture from theme where not id in(23,25,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:28:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:28:07    select id,type,text,picture from theme where not id in(23,25,34,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:28:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:28:40    select id,type,text,picture from theme where not id in(23,25,34,22,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:29:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:29:12    select id,type,text,picture from theme where not id in(23,25,34,22,21,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:29:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:29:45    select id,type,text,picture from theme where not id in(23,25,34,22,21,36,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:30:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:30:18    select id,type,text,picture from theme where not id in(23,25,34,22,21,36,24,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:30:18    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 18:30:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:30:51    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:31:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:31:24    select id,type,text,picture from theme where not id in(23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:31:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:31:57    select id,type,text,picture from theme where not id in(23,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:32:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:32:30    select id,type,text,picture from theme where not id in(23,21,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:47:26    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:47:26    update user set count=48,lastdate=now() where id='12'
+2016/07/05 18:47:26    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:48:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:48:01    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:49:14    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:49:14    update user set count=49,lastdate=now() where id='12'
+2016/07/05 18:49:14    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:49:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:49:49    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:50:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:50:21    select id,type,text,picture from theme where not id in(36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:50:28    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 18:50:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:50:53    select id,type,text,picture from theme where not id in(36,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:50:54    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='10' group by u.id
+2016/07/05 18:51:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:51:25    select id,type,text,picture from theme where not id in(36,34,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:51:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:51:56    select id,type,text,picture from theme where not id in(36,34,22,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:52:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:52:28    select id,type,text,picture from theme where not id in(36,34,22,25,37,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:52:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:53:00    select id,type,text,picture from theme where not id in(36,34,22,25,37,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:53:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:53:31    select id,type,text,picture from theme where not id in(36,34,22,25,37,24,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:54:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:54:02    select id,type,text,picture from theme where not id in(36,34,22,25,37,24,23,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:54:03    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 18:54:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:54:34    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:55:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:55:06    select id,type,text,picture from theme where not id in(24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:56:22    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:56:22    update user set count=50,lastdate=now() where id='12'
+2016/07/05 18:56:22    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:56:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:56:54    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:57:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:57:27    select id,type,text,picture from theme where not id in(24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:58:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:58:00    select id,type,text,picture from theme where not id in(24,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:58:39    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 18:58:39    update user set count=51,lastdate=now() where id='12'
+2016/07/05 18:58:40    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:59:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:59:12    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 18:59:25    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='10' group by u.id
+2016/07/05 18:59:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 18:59:44    select id,type,text,picture from theme where not id in(23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:00:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:00:16    select id,type,text,picture from theme where not id in(23,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:00:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:00:47    select id,type,text,picture from theme where not id in(23,35,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:01:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:01:19    select id,type,text,picture from theme where not id in(23,35,25,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:01:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:01:50    select id,type,text,picture from theme where not id in(23,35,25,37,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:02:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:02:22    select id,type,text,picture from theme where not id in(23,35,25,37,21,34,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:02:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:02:53    select id,type,text,picture from theme where not id in(23,35,25,37,21,34,36,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:03:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:03:25    select id,type,text,picture from theme where not id in(23,35,25,37,21,34,36,22,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:03:25    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:03:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:03:56    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:04:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:04:27    select id,type,text,picture from theme where not id in(37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:04:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:04:59    select id,type,text,picture from theme where not id in(37,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:05:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:05:30    select id,type,text,picture from theme where not id in(37,22,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:06:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:06:02    select id,type,text,picture from theme where not id in(37,22,21,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:06:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:06:33    select id,type,text,picture from theme where not id in(37,22,21,36,35,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:07:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:07:05    select id,type,text,picture from theme where not id in(37,22,21,36,35,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:07:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:07:36    select id,type,text,picture from theme where not id in(37,22,21,36,35,24,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:08:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:08:07    select id,type,text,picture from theme where not id in(37,22,21,36,35,24,34,23,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:08:08    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:08:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:08:39    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:09:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:09:10    select id,type,text,picture from theme where not id in(23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:09:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:09:42    select id,type,text,picture from theme where not id in(23,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:10:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:10:13    select id,type,text,picture from theme where not id in(23,35,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:10:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:10:45    select id,type,text,picture from theme where not id in(23,35,34,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:11:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:11:16    select id,type,text,picture from theme where not id in(23,35,34,22,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:11:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:11:48    select id,type,text,picture from theme where not id in(23,35,34,22,36,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:12:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:12:19    select id,type,text,picture from theme where not id in(23,35,34,22,36,24,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:12:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:12:51    select id,type,text,picture from theme where not id in(23,35,34,22,36,24,37,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:12:51    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:13:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:13:22    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:13:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:13:54    select id,type,text,picture from theme where not id in(23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:36:56    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 19:36:57    update user set count=52,lastdate=now() where id='12'
+2016/07/05 19:36:57    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:37:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:37:31    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:38:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:38:05    select id,type,text,picture from theme where not id in(34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:38:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:38:38    select id,type,text,picture from theme where not id in(34,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:39:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:39:10    select id,type,text,picture from theme where not id in(34,37,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:39:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:39:43    select id,type,text,picture from theme where not id in(34,37,21,23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:40:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:40:17    select id,type,text,picture from theme where not id in(34,37,21,23,35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:40:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:40:49    select id,type,text,picture from theme where not id in(34,37,21,23,35,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:41:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:41:22    select id,type,text,picture from theme where not id in(34,37,21,23,35,22,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:41:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:41:55    select id,type,text,picture from theme where not id in(34,37,21,23,35,22,36,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:41:56    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:42:01    update user set rating=1500 where id=12
+2016/07/05 19:42:04    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 19:42:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:42:29    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:42:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:42:48    select id,type,text,picture from theme where not id in(34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:43:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:43:11    select id,type,text,picture from theme where not id in(34,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:43:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:43:43    select id,type,text,picture from theme where not id in(34,21,37,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:44:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:44:16    select id,type,text,picture from theme where not id in(34,21,37,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:44:48     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:44:49    select id,type,text,picture from theme where not id in(34,21,37,23,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:44:55    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 19:45:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:45:20    select id,type,text,picture from theme where not id in(34,21,37,23,22,25,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:45:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:45:53    select id,type,text,picture from theme where not id in(34,21,37,23,22,25,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:46:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:46:25    select id,type,text,picture from theme where not id in(34,21,37,23,22,25,36,35,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:46:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:46:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:46:58    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:47:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:47:30    select id,type,text,picture from theme where not id in(24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:48:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:48:03    select id,type,text,picture from theme where not id in(24,34,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:48:24    update user set rating=1500 where id=12
+2016/07/05 19:48:30    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 19:48:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:48:38    select id,type,text,picture from theme where not id in(24,34,35,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:49:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:49:10    com.mysql.jdbc.PreparedStatement@638e8fbd: statement has been closed, no further internal information available
+2016/07/05 19:49:11    select id,type,text,picture from theme where not id in(24,34,35,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:49:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:49:34    com.mysql.jdbc.PreparedStatement@6cbb3f71: statement has been closed, no further internal information available
+2016/07/05 19:49:34    select id,type,text,picture from theme where not id in(24,34,35,37,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:50:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:50:05    select id,type,text,picture from theme where not id in(24,34,35,37,25,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:50:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:50:25    com.mysql.jdbc.PreparedStatement@30943653: statement has been closed, no further internal information available
+2016/07/05 19:50:26    select id,type,text,picture from theme where not id in(24,34,35,37,25,22,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:50:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:50:57    com.mysql.jdbc.PreparedStatement@307a140f: statement has been closed, no further internal information available
+2016/07/05 19:50:57    select id,type,text,picture from theme where not id in(24,34,35,37,25,22,36,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:50:57    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:51:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:51:28    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:51:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:51:59    select id,type,text,picture from theme where not id in(23,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:52:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:52:30    select id,type,text,picture from theme where not id in(23,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:53:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:53:02    select id,type,text,picture from theme where not id in(23,35,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:53:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:53:33    select id,type,text,picture from theme where not id in(23,35,36,37,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:54:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:54:04    select id,type,text,picture from theme where not id in(23,35,36,37,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:54:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:54:35    select id,type,text,picture from theme where not id in(23,35,36,37,21,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:55:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:55:07    select id,type,text,picture from theme where not id in(23,35,36,37,21,34,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:55:35    update user set rating=1484 where id=12
+2016/07/05 19:55:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:55:38    select id,type,text,picture from theme where not id in(23,35,36,37,21,34,24,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:55:38    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 19:55:38    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 19:56:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:56:06    com.mysql.jdbc.PreparedStatement@32499f7d: statement has been closed, no further internal information available
+2016/07/05 19:56:06    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:56:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:56:39    select id,type,text,picture from theme where not id in(36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:57:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:57:11    select id,type,text,picture from theme where not id in(36,24,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:57:42     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:57:42    com.mysql.jdbc.PreparedStatement@c481958: statement has been closed, no further internal information available
+2016/07/05 19:57:42    select id,type,text,picture from theme where not id in(36,24,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:58:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:58:15    select id,type,text,picture from theme where not id in(36,24,21,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:58:41    update user set rating=1526 where id=11
+2016/07/05 19:58:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:58:46    com.mysql.jdbc.PreparedStatement@1f4b52aa: statement has been closed, no further internal information available
+2016/07/05 19:58:47    select id,type,text,picture from theme where not id in(36,24,21,34,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:59:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:59:19    select id,type,text,picture from theme where not id in(36,24,21,34,25,37,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 19:59:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 19:59:52    select id,type,text,picture from theme where not id in(36,24,21,34,25,37,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:00:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:00:25    select id,type,text,picture from theme where not id in(36,24,21,34,25,37,23,22,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:00:26    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 20:00:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:00:58    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:01:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:01:16    com.mysql.jdbc.PreparedStatement@82f60ce: statement has been closed, no further internal information available
+2016/07/05 20:01:16    select id,type,text,picture from theme where not id in(34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:02:00    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:02:00    update user set count=53,lastdate=now() where id='12'
+2016/07/05 20:02:00    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:02:07    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 20:02:34     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:02:34    com.mysql.jdbc.PreparedStatement@15517e5e: statement has been closed, no further internal information available
+2016/07/05 20:02:34    com.mysql.jdbc.PreparedStatement@193f5841: statement has been closed, no further internal information available
+2016/07/05 20:02:35    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:03:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:03:06    select id,type,text,picture from theme where not id in(35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:03:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:03:38    select id,type,text,picture from theme where not id in(35,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:04:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:04:09    select id,type,text,picture from theme where not id in(35,36,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:04:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:04:28    com.mysql.jdbc.PreparedStatement@16321e6: statement has been closed, no further internal information available
+2016/07/05 20:04:28    com.mysql.jdbc.PreparedStatement@134683c0: statement has been closed, no further internal information available
+2016/07/05 20:04:29    select id,type,text,picture from theme where not id in(35,36,24,34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:04:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:05:00    select id,type,text,picture from theme where not id in(35,36,24,34,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:05:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:05:32    select id,type,text,picture from theme where not id in(35,36,24,34,37,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:06:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:06:04    select id,type,text,picture from theme where not id in(35,36,24,34,37,25,23,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:06:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:06:35    select id,type,text,picture from theme where not id in(35,36,24,34,37,25,23,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:06:36    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 20:07:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:07:07    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:07:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:07:33    select id,type,text,picture from theme where not id in(21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:07:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:07:55    com.mysql.jdbc.PreparedStatement@14df33ae: statement has been closed, no further internal information available
+2016/07/05 20:07:55    com.mysql.jdbc.PreparedStatement@49b9ef36: statement has been closed, no further internal information available
+2016/07/05 20:07:56    select id,type,text,picture from theme where not id in(21,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:08:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:08:27    select id,type,text,picture from theme where not id in(21,25,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:09:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:09:01    select id,type,text,picture from theme where not id in(21,25,24,34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:09:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:09:32    select id,type,text,picture from theme where not id in(21,25,24,34,37,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:12:34    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:12:34    update user set count=54,lastdate=now() where id='12'
+2016/07/05 20:12:35    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:12:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:12:50    com.mysql.jdbc.PreparedStatement@4df93ace: statement has been closed, no further internal information available
+2016/07/05 20:12:50    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:12:51    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 20:13:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:13:08    com.mysql.jdbc.PreparedStatement@5db18235: statement has been closed, no further internal information available
+2016/07/05 20:13:08    com.mysql.jdbc.PreparedStatement@30db95a1: statement has been closed, no further internal information available
+2016/07/05 20:13:08    select id,type,text,picture from theme where not id in(35,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:13:39     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:13:39    select id,type,text,picture from theme where not id in(35,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:14:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:14:11    select id,type,text,picture from theme where not id in(35,22,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:14:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:14:42    select id,type,text,picture from theme where not id in(35,22,21,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:15:10    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:15:10    update user set count=55,lastdate=now() where id='12'
+2016/07/05 20:15:11    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:15:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:15:30    com.mysql.jdbc.PreparedStatement@1bd97d0d: statement has been closed, no further internal information available
+2016/07/05 20:15:31    select id,type,text,picture from theme where not id in(25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:16:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:16:03    select id,type,text,picture from theme where not id in(25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:16:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:16:35    select id,type,text,picture from theme where not id in(25,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:17:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:17:08    select id,type,text,picture from theme where not id in(25,23,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:17:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:17:41    select id,type,text,picture from theme where not id in(25,23,34,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:18:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:18:14    select id,type,text,picture from theme where not id in(25,23,34,24,35,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:18:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:18:47    select id,type,text,picture from theme where not id in(25,23,34,24,35,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:19:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:19:20    select id,type,text,picture from theme where not id in(25,23,34,24,35,37,36,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:19:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:19:52    select id,type,text,picture from theme where not id in(25,23,34,24,35,37,36,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:19:52    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 20:20:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:20:25    select id,type,text,picture from theme where not id in(36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:20:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:20:58    select id,type,text,picture from theme where not id in(36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:21:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:21:31    select id,type,text,picture from theme where not id in(36,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:22:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:22:04    select id,type,text,picture from theme where not id in(36,35,25,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:22:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:22:38    select id,type,text,picture from theme where not id in(36,35,25,37,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:23:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:23:10    select id,type,text,picture from theme where not id in(36,35,25,37,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:23:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:23:43    select id,type,text,picture from theme where not id in(36,35,25,37,24,23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:24:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:24:16    select id,type,text,picture from theme where not id in(36,35,25,37,24,23,21,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:24:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:24:49    select id,type,text,picture from theme where not id in(36,35,25,37,24,23,21,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:24:49    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 20:25:53    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:25:53    update user set count=56,lastdate=now() where id='12'
+2016/07/05 20:25:53    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:26:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:26:13    com.mysql.jdbc.PreparedStatement@7be758ca: statement has been closed, no further internal information available
+2016/07/05 20:26:13    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:26:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:26:44    select id,type,text,picture from theme where not id in(35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:27:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:27:16    select id,type,text,picture from theme where not id in(35,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:27:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:27:26    com.mysql.jdbc.PreparedStatement@71e13a2c: statement has been closed, no further internal information available
+2016/07/05 20:27:26    select id,type,text,picture from theme where not id in(35,21,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:27:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:27:57    select id,type,text,picture from theme where not id in(35,21,24,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:30:10    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:30:10    update user set count=57,lastdate=now() where id='12'
+2016/07/05 20:30:10    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:30:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:30:29    com.mysql.jdbc.PreparedStatement@2523defe: statement has been closed, no further internal information available
+2016/07/05 20:30:29    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:31:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:31:00    select id,type,text,picture from theme where not id in(35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:32:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:32:16    select id,type,text,picture from theme where not id in(35,25,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:32:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:32:47    select id,type,text,picture from theme where not id in(35,25,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:33:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:33:18    select id,type,text,picture from theme where not id in(35,25,21,37,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:33:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:33:50    select id,type,text,picture from theme where not id in(35,25,21,37,24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:34:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:34:21    select id,type,text,picture from theme where not id in(35,25,21,37,24,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:34:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:34:53    select id,type,text,picture from theme where not id in(35,25,21,37,24,34,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:35:24     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:35:24    select id,type,text,picture from theme where not id in(35,25,21,37,24,34,22,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:35:24    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 20:35:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:35:56    select id,type,text,picture from theme where not id in(35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:36:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:36:27    select id,type,text,picture from theme where not id in(35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:36:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:36:59    select id,type,text,picture from theme where not id in(35,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:37:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:37:30    select id,type,text,picture from theme where not id in(35,21,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:38:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:38:02    select id,type,text,picture from theme where not id in(35,21,23,34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:39:49    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:39:49    update user set count=58,lastdate=now() where id='12'
+2016/07/05 20:39:49    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:40:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:40:21    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:40:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:40:53    select id,type,text,picture from theme where not id in(34,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:41:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:41:24    select id,type,text,picture from theme where not id in(34,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:41:55    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:41:55    update user set count=59,lastdate=now() where id='12'
+2016/07/05 20:41:55    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:42:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:42:07    com.mysql.jdbc.PreparedStatement@1c4c94e5: statement has been closed, no further internal information available
+2016/07/05 20:42:07    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:42:22     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:42:23    com.mysql.jdbc.PreparedStatement@6487cd5c: statement has been closed, no further internal information available
+2016/07/05 20:42:23    select id,type,text,picture from theme where not id in(24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:42:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:42:54    select id,type,text,picture from theme where not id in(24,22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:43:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:43:25    select id,type,text,picture from theme where not id in(24,22,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:43:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:43:56    select id,type,text,picture from theme where not id in(24,22,37,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:44:06     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:44:06    com.mysql.jdbc.PreparedStatement@7cd47880: statement has been closed, no further internal information available
+2016/07/05 20:44:07    select id,type,text,picture from theme where not id in(24,22,37,35,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:44:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:44:39    select id,type,text,picture from theme where not id in(24,22,37,35,21,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:45:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:45:10    select id,type,text,picture from theme where not id in(24,22,37,35,21,34,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:45:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:45:38    select id,type,text,picture from theme where not id in(24,22,37,35,21,34,23,36,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:45:39    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 20:45:44    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 20:45:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:45:58    com.mysql.jdbc.PreparedStatement@30f49e8f: statement has been closed, no further internal information available
+2016/07/05 20:45:58    com.mysql.jdbc.PreparedStatement@bd5d765: statement has been closed, no further internal information available
+2016/07/05 20:45:59    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:50:27    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:50:27    update user set count=60,lastdate=now() where id='12'
+2016/07/05 20:50:27    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:50:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:50:59    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:51:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:51:32    select id,type,text,picture from theme where not id in(24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:52:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:52:04    select id,type,text,picture from theme where not id in(24,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:52:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:52:35    select id,type,text,picture from theme where not id in(24,37,36,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:53:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:53:07    select id,type,text,picture from theme where not id in(24,37,36,23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:53:11    update user set rating=1484 where id=12
+2016/07/05 20:53:13    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:53:38     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:53:38    select id,type,text,picture from theme where not id in(24,37,36,23,21,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:57:22    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 20:57:22    update user set count=19,lastdate=now() where id='11'
+2016/07/05 20:57:23    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:57:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:57:56    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:58:27    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 20:58:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:58:29    select id,type,text,picture from theme where not id in(21,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:59:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:59:02    select id,type,text,picture from theme where not id in(21,22,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 20:59:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 20:59:33    select id,type,text,picture from theme where not id in(21,22,25,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:00:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:00:05    select id,type,text,picture from theme where not id in(21,22,25,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:00:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:00:39    select id,type,text,picture from theme where not id in(21,22,25,36,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:00:47    update user set rating=1484 where id=12
+2016/07/05 21:00:49    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:01:09     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:01:10    select id,type,text,picture from theme where not id in(21,22,25,36,37,35,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:01:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:01:41    select id,type,text,picture from theme where not id in(21,22,25,36,37,35,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:02:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:02:12    select id,type,text,picture from theme where not id in(21,22,25,36,37,35,23,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:02:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:02:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:02:43    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:03:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:03:15    select id,type,text,picture from theme where not id in(24,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:03:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:03:46    select id,type,text,picture from theme where not id in(24,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:04:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:04:17    select id,type,text,picture from theme where not id in(24,34,25,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:04:49     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:04:49    select id,type,text,picture from theme where not id in(24,34,25,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:05:15    update user set rating=1484 where id=12
+2016/07/05 21:05:17    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:05:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:05:20    select id,type,text,picture from theme where not id in(24,34,25,35,21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:05:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:05:53    select id,type,text,picture from theme where not id in(24,34,25,35,21,36,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:06:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:06:23    select id,type,text,picture from theme where not id in(24,34,25,35,21,36,22,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:06:54     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:06:54    select id,type,text,picture from theme where not id in(24,34,25,35,21,36,22,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:06:54    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:07:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:07:26    select id,type,text,picture from theme where not id in(25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:07:50    update user set rating=1484 where id=12
+2016/07/05 21:07:52    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:07:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:07:57    select id,type,text,picture from theme where not id in(25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:08:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:08:29    select id,type,text,picture from theme where not id in(25,24,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:09:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:09:00    select id,type,text,picture from theme where not id in(25,24,37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:09:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:09:31    select id,type,text,picture from theme where not id in(25,24,37,34,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:10:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:10:02    select id,type,text,picture from theme where not id in(25,24,37,34,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:10:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:10:35    select id,type,text,picture from theme where not id in(25,24,37,34,36,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:11:05     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:11:05    select id,type,text,picture from theme where not id in(25,24,37,34,36,35,21,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:11:08    update user set rating=1484 where id=12
+2016/07/05 21:11:53    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:11:53    update user set count=61,lastdate=now() where id='12'
+2016/07/05 21:11:54    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:12:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:12:13    com.mysql.jdbc.PreparedStatement@659e733e: statement has been closed, no further internal information available
+2016/07/05 21:12:13    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:12:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:12:23    com.mysql.jdbc.PreparedStatement@14b87d31: statement has been closed, no further internal information available
+2016/07/05 21:12:23    select id,type,text,picture from theme where not id in(24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:12:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:12:56    select id,type,text,picture from theme where not id in(24,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:13:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:13:30    select id,type,text,picture from theme where not id in(24,22,21,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:14:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:14:02    select id,type,text,picture from theme where not id in(24,22,21,37,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:14:35     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:14:35    select id,type,text,picture from theme where not id in(24,22,21,37,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:15:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:15:08    select id,type,text,picture from theme where not id in(24,22,21,37,23,36,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:15:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:15:41    select id,type,text,picture from theme where not id in(24,22,21,37,23,36,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:16:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:16:13    select id,type,text,picture from theme where not id in(24,22,21,37,23,36,35,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:16:13    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:16:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:16:46    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:17:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:17:19    select id,type,text,picture from theme where not id in(24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:17:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:17:52    select id,type,text,picture from theme where not id in(24,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:18:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:18:25    select id,type,text,picture from theme where not id in(24,25,22,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:18:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:18:58    select id,type,text,picture from theme where not id in(24,25,22,34,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:19:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:19:31    select id,type,text,picture from theme where not id in(24,25,22,34,23,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:20:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:20:04    select id,type,text,picture from theme where not id in(24,25,22,34,23,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:20:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:20:37    select id,type,text,picture from theme where not id in(24,25,22,34,23,36,21,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:21:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:21:10    select id,type,text,picture from theme where not id in(24,25,22,34,23,36,21,35,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:21:10    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:21:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:21:43    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:22:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:22:16    select id,type,text,picture from theme where not id in(34,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:22:37    update user set rating=1484 where id=12
+2016/07/05 21:22:39    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:23:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:23:29    select id,type,text,picture from theme where not id in(34,22,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:23:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:23:52    select id,type,text,picture from theme where not id in(34,22,21,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:24:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:24:11    com.mysql.jdbc.PreparedStatement@dc0adca: statement has been closed, no further internal information available
+2016/07/05 21:24:12    select id,type,text,picture from theme where not id in(34,22,21,35,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:24:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:24:44    select id,type,text,picture from theme where not id in(34,22,21,35,36,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:25:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:25:17    select id,type,text,picture from theme where not id in(34,22,21,35,36,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:25:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:25:52    select id,type,text,picture from theme where not id in(34,22,21,35,36,23,37,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:26:25     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:26:25    select id,type,text,picture from theme where not id in(34,22,21,35,36,23,37,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:26:25    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:26:43    update user set rating=1484 where id=12
+2016/07/05 21:26:45    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:26:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:26:57    select id,type,text,picture from theme where not id in(34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:27:06    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 21:27:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:27:21    com.mysql.jdbc.PreparedStatement@71292d12: statement has been closed, no further internal information available
+2016/07/05 21:27:22    select id,type,text,picture from theme where not id in(34,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:27:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:27:36    com.mysql.jdbc.PreparedStatement@79424b7b: statement has been closed, no further internal information available
+2016/07/05 21:27:36    com.mysql.jdbc.PreparedStatement@6f69b66e: statement has been closed, no further internal information available
+2016/07/05 21:27:36    select id,type,text,picture from theme where not id in(34,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:28:07     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:28:09    select id,type,text,picture from theme where not id in(34,37,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:28:40     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:28:40    select id,type,text,picture from theme where not id in(34,37,36,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:29:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:29:11    select id,type,text,picture from theme where not id in(34,37,36,24,23,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:29:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:29:43    select id,type,text,picture from theme where not id in(34,37,36,24,23,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:29:47    update user set rating=1484 where id=12
+2016/07/05 21:29:50    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:30:10     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:30:10    select id,type,text,picture from theme where not id in(34,37,36,24,23,25,22,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:30:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:30:43    select id,type,text,picture from theme where not id in(34,37,36,24,23,25,22,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:30:43    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:31:15     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:31:15    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:31:46     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:31:46    select id,type,text,picture from theme where not id in(21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:32:18     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:32:19    select id,type,text,picture from theme where not id in(21,36,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:32:50     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:32:50    select id,type,text,picture from theme where not id in(21,36,24,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:33:21     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:33:21    select id,type,text,picture from theme where not id in(21,36,24,23,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:33:52     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:33:52    select id,type,text,picture from theme where not id in(21,36,24,23,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:34:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:34:23    select id,type,text,picture from theme where not id in(21,36,24,23,37,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:34:55     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:34:55    select id,type,text,picture from theme where not id in(21,36,24,23,37,35,34,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:35:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:35:27    select id,type,text,picture from theme where not id in(21,36,24,23,37,35,34,25,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:35:27    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:35:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:35:58    select id,type,text,picture from theme where not id in(21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:36:26    update user set rating=1477 where id=12
+2016/07/05 21:36:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:36:30    select id,type,text,picture from theme where not id in(21,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:37:15    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:37:15    update user set count=62,lastdate=now() where id='12'
+2016/07/05 21:37:16    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:37:51     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:37:51    select id,type,text,picture from theme where not id in(23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:38:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:38:24    select id,type,text,picture from theme where not id in(23,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:38:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:38:57    select id,type,text,picture from theme where not id in(23,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:39:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:39:30    select id,type,text,picture from theme where not id in(23,21,25,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:40:03     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:40:03    select id,type,text,picture from theme where not id in(23,21,25,36,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:40:36     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:40:36    select id,type,text,picture from theme where not id in(23,21,25,36,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:41:08     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:41:10    select id,type,text,picture from theme where not id in(23,21,25,36,37,35,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:41:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:41:42    select id,type,text,picture from theme where not id in(23,21,25,36,37,35,34,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:42:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:42:15    select id,type,text,picture from theme where not id in(23,21,25,36,37,35,34,24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:42:15    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:42:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:42:48    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:43:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:43:21    select id,type,text,picture from theme where not id in(37,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:43:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:43:54    select id,type,text,picture from theme where not id in(37,34,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:44:26     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:44:27    select id,type,text,picture from theme where not id in(37,34,35,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:44:59     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:45:00    select id,type,text,picture from theme where not id in(37,34,35,21,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:45:10    update user set rating=1477 where id=12
+2016/07/05 21:45:32     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:45:33    select id,type,text,picture from theme where not id in(37,34,35,21,25,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:46:04     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:46:05    select id,type,text,picture from theme where not id in(37,34,35,21,25,24,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:46:37     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:46:39    select id,type,text,picture from theme where not id in(37,34,35,21,25,24,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:47:11     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:47:12    select id,type,text,picture from theme where not id in(37,34,35,21,25,24,22,36,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:47:12    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 21:47:12    update user set rating=1477 where id=12
+2016/07/05 21:47:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:47:45    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:48:19     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:48:19    select id,type,text,picture from theme where not id in(22,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:49:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:49:17    select id,type,text,picture from theme where not id in(22,37,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:50:09    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:50:55    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:51:02     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:51:05    select id,type,text,picture from theme where not id in(22,37,35,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:52:55    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:52:56    update user set rating=1477 where id=12
+2016/07/05 21:52:58    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:55:23    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 21:55:23    update user set count=63,lastdate=now() where id='12'
+2016/07/05 21:55:23    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:55:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:55:48    com.mysql.jdbc.PreparedStatement@655e3dc4: statement has been closed, no further internal information available
+2016/07/05 21:55:48    select id,type,text,picture from theme where not id in(37) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:56:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:56:21    select id,type,text,picture from theme where not id in(37,22) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:57:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:57:01    select id,type,text,picture from theme where not id in(37,22,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:57:33     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:57:34    select id,type,text,picture from theme where not id in(37,22,36,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:57:47     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:57:47    com.mysql.jdbc.PreparedStatement@30f49e8f: statement has been closed, no further internal information available
+2016/07/05 21:57:47    select id,type,text,picture from theme where not id in(37,22,36,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:58:20     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:58:20    select id,type,text,picture from theme where not id in(37,22,36,21,24,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:58:53     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:58:57    select id,type,text,picture from theme where not id in(37,22,36,21,24,35,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 21:59:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 21:59:29    select id,type,text,picture from theme where not id in(37,22,36,21,24,35,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:00:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:00:01    select id,type,text,picture from theme where not id in(37,22,36,21,24,35,25,23,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:00:04    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 22:00:04    update user set rating=1477 where id=12
+2016/07/05 22:00:04    update user set rating=1477 where id=12
+2016/07/05 22:03:05    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 22:04:49    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 22:04:49    update user set count=64,lastdate=now() where id='12'
+2016/07/05 22:04:49    select id,type,text,picture from theme where not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:05:23     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:05:24    select id,type,text,picture from theme where not id in(22) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:05:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:05:57    select id,type,text,picture from theme where not id in(22,35) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:06:29     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:06:30    select id,type,text,picture from theme where not id in(22,35,37) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:07:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:07:01    select id,type,text,picture from theme where not id in(22,35,37,36) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:07:02    update user set rating=1477 where id=12
+2016/07/05 22:07:23    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 22:07:30    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 22:07:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:07:41    select id,type,text,picture from theme where not id in(22,35,37,36,34) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:08:13     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:08:13    select id,type,text,picture from theme where not id in(22,35,37,36,34,21) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:08:44     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:08:44    select id,type,text,picture from theme where not id in(22,35,37,36,34,21,24) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:09:16     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:09:17    select id,type,text,picture from theme where not id in(22,35,37,36,34,21,24,25) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:09:17    update user set rating=1526 where id=11
+2016/07/05 22:09:17    update user set rating=1477 where id=12
+2016/07/05 22:10:39    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='12' group by u.id
+2016/07/05 22:10:58     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:10:58    select id,type,text,picture from theme where not id in(22,35,37,36,34,21,24,25,23) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:10:59    select id,type,text,picture from theme  ORDER BY RAND() LIMIT 1 
+2016/07/05 22:11:07    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='11' group by u.id
+2016/07/05 22:11:30     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:11:30    com.mysql.jdbc.PreparedStatement@2d5004dd: statement has been closed, no further internal information available
+2016/07/05 22:11:31    select id,type,text,picture from theme where not id in(24) ORDER BY RAND() LIMIT 1 
+2016/07/05 22:12:01     insert into seq_game_log   (     hoge  )  values (?) 
+2016/07/05 22:12:02    select id,type,text,picture from theme where not id in(24,34) ORDER BY RAND() LIMIT 1 

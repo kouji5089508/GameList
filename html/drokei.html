@@ -1,0 +1,362 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body{
+	font-family:"メイリオ", Meiryo, sans-serif;
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" >
+var People=function(config){
+	var config=config || {};
+	this.x= (config.x || 100)*1;
+	this.y= (config.y || 100)*1;
+	this.trans_x=0;
+	this.trans_y=0;
+	this.r=10;
+	this.color= config.color || "red";
+	this.speedX=0;
+	this.speedY=0;
+	this.ax=0;
+	this.ay=0;
+	this.edge_flg=false;
+	this.type="chaser";
+	var group=document.createElementNS("http://www.w3.org/2000/svg", "g");
+	$("#svg_area").append(group);
+	this.inline=function(){
+		var p_height=30;
+		var f_length=15;
+		var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+		circle.setAttribute("cx",this.x);
+	    circle.setAttribute("cy",this.y);
+	    circle.setAttribute("r",this.r);
+	    circle.setAttribute("fill",this.color);
+	    $(group).append(circle);
+	    var polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+	    polygon.setAttribute("fill",this.color);
+	    polygon.setAttribute("points",(this.x-this.r)+","+(this.y+this.r)+" "+(this.x+this.r)+","+(this.y+this.r)+" "+(this.x+this.r)+","+(this.y+this.r+p_height)+" "+(this.x-this.r)+","+(this.y+this.r+p_height));
+	    $(group).append(polygon);
+	    var polygon2 = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+	    polygon2.setAttribute("fill",this.color);
+	    polygon2.setAttribute("points",(this.x-this.r)+","+(this.y+this.r)+" "+(this.x-this.r*2.4)+","+(this.y+this.r*2.3)+" "+(this.x-this.r*1.5)+","+(this.y+this.r*2.7)+" "+(this.x)+","+(this.y+this.r*1.5));
+	    $(group).append(polygon2);
+	    var polygon3 = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+	    polygon3.setAttribute("fill",this.color);
+	    polygon3.setAttribute("points",(this.x+this.r)+","+(this.y+this.r)+" "+(this.x+this.r*2.4)+","+(this.y+this.r*2.3)+" "+(this.x+this.r*1.5)+","+(this.y+this.r*2.7)+" "+(this.x)+","+(this.y+this.r*1.5));
+	    $(group).append(polygon3);
+	    var polygon4 = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+	    polygon4.setAttribute("fill",this.color);
+	    polygon4.setAttribute("points",(this.x-this.r)+","+(this.y+this.r+p_height)+" "+(this.x-this.r)+","+(this.y+this.r+p_height+f_length)+" "+(this.x-this.r*0.2)+","+(this.y+this.r+p_height+f_length)+" "+(this.x-this.r*0.2)+","+(this.y+this.r+p_height));
+	    $(group).append(polygon4);
+	    var polygon5 = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+	    polygon5.setAttribute("fill",this.color);
+	    polygon5.setAttribute("points",(this.x+this.r)+","+(this.y+this.r+p_height)+" "+(this.x+this.r)+","+(this.y+this.r+p_height+f_length)+" "+(this.x+this.r*0.2)+","+(this.y+this.r+p_height+f_length)+" "+(this.x+this.r*0.2)+","+(this.y+this.r+p_height));
+	    $(group).append(polygon5);
+	    
+	    /*var image = document.createElementNS("http://www.w3.org/2000/svg", "image");
+	    image.setAttribute("fhref","drobou.png");
+	    image.setAttribute("xlink:href","");
+	    image.setAttribute("x",100);
+	    image.setAttribute("y",100);
+	    image.setAttribute("height","1000");
+	    image.setAttribute("width","1000");
+	    image.setAttribute("preserveAspectRatio","none");
+	     $(group).append(image);
+	     if(this.type=="escape"){
+	     	$(group).append($("#drobou").get(0));
+	     }else{
+	     	$(group).append($("#keiji").get(0));
+	     }
+	     */
+	}
+	this.move=function(x,y){
+		this.trans_x+=x*1;
+		this.trans_y+=y*1;
+		var edge_x_flg=false;
+		var edge_y_flg=false;
+		if(this.getX()<0 || this.getX()>=$("#svg_area").width()){
+			this.trans_x-=x*1;
+			this.speedX=Math.random()*10-5;
+			this.ax=Math.random()*10-5;
+			edge_x_flg=true;
+			this.comment(Comment.getEdge(),true);
+		}
+		if(this.getY()<0 || this.getY()>=$("#svg_area").height()){
+			this.trans_y-=y*1;
+			this.speedY=Math.random()*10-5;
+			this.ay=Math.random()*10-5;
+			edge_x_flg=true;
+			this.comment(Comment.getEdge(),true);
+		}
+		if(edge_x_flg && edge_y_flg){
+			this.edge_flg=true;
+		}else if(!edge_x_flg && !edge_y_flg){
+			var r= Math.ceil(Math.random()*3);
+			if(r==1){
+				this.comment(Comment.getRandom());
+			}
+		}
+		group.setAttribute("transform","translate("+this.trans_x+","+this.trans_y+")");
+		People.judgeConflict(People.chase,People.escape);
+	}
+	this.getX=function(){
+		return this.x*1+this.trans_x*1;
+	}
+	this.getY=function(){
+		return this.y*1+this.trans_y*1+30;
+	}
+	this.changeA=function(escape_vector){
+		var a_size=Math.pow(Math.pow(escape_vector[0],2)+Math.pow(escape_vector[1],2),0.5);
+		if(a_size==0){
+			
+		}
+		else{
+			this.ax=escape_vector[0]/a_size*this.baseA;
+			this.ay=escape_vector[1]/a_size*this.baseA;
+		}
+	}
+	this.shift=function(){
+		this.speedX+=this.ax;
+		this.speedY+=this.ay;
+		var s_size=Math.pow(Math.pow(this.speedX,2)+Math.pow(this.speedY,2),0.5);
+		if(s_size*1<=this.speedMax*1){
+			this.move(this.speedX,this.speedY);
+		}
+		else{
+			var tsx=this.speedX/s_size*this.speedMax;
+			var tsy=this.speedY/s_size*this.speedMax;
+			this.move(tsx,tsy);
+		}
+	}
+	var self=this;
+	this.comment=function(come,force_flg){
+		if(this.type=="escape" && !this.comment_flg){
+			var text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+			var tx=this.x+this.r+10;
+			var ty=this.y+this.r/2;
+			if(this.getX()>=$("#svg_area").width()*0.6){
+				tx=this.x-this.r-(come.length*16+10);
+			}
+			if(this.getY()<=$("#svg_area").height()*0.6){
+				ty=this.y+this.r+40;
+			}
+			text.setAttribute("x",tx);
+			text.setAttribute("y",ty);
+			$(group).append(text);
+			$(text).text(come);
+			this.comment_flg=true;
+			setTimeout(function(){$(text).remove();self.comment_flg=false;}, 1500);
+		}
+	}
+}
+People.makePoints=function(array){
+	
+};
+People.finish_flg=false;
+People.judgeConflict=function(chase,escape){
+	var distance=People.getDirection(chase,escape).distance;
+	if(distance*1<=40){
+		if(!People.finish_flg){
+			alert("逮捕しました!");
+			People.finish_flg=true;
+			location.reload();
+		}
+		return true;
+	}
+	else{
+		return false;
+	}
+};
+People.getDirection=function(self,target){
+	var cx=self.getX();
+	var cy=self.getY();
+	var ex=target.getX();
+	var ey=target.getY();
+	var v_x=ex-cx;
+	var v_y=ey-cy;
+	var distance=Math.pow(Math.pow(v_x,2)+Math.pow(v_y,2),0.5);
+	return {vx:v_x,vy:v_y,distance:distance};
+}
+People.getDistance=function(x,y){
+	return Math.pow(Math.pow(x,2)+Math.pow(y,2),0.5);
+}
+var Comment={};
+Comment.getEdge=function(){
+	var r= Math.ceil(Math.random()*5);
+	if(r==1){
+		return "端に追い詰めたとでも思っているのかww";
+	}else if(r==2){
+		return "とろいよww";
+	}else if(r==3){
+		return "まーひー";
+	}else if(r==4){
+		return "表の世界じゃルパンが有名なんだっけww";
+	}else if(r==5){
+		return "インターポールも腕が落ちたな";
+	}
+}
+Comment.getRandom=function(){
+	var r= Math.ceil(Math.random()*5);
+	if(r==1){
+		return "にゃー";
+	}else if(r==2){
+		return "俺を捕まえたら大したもんだ";
+	}else if(r==3){
+		return "三億円事件の犯人を知ってるかい";
+	}else if(r==4){
+		return "俺は大泥棒だぜ";
+	}else if(r==4){
+		return "懸賞金が賭けられている泥棒は少ないぜ";
+	}
+}
+Comment.getRisk=function(){
+	var r= Math.ceil(Math.random()*4);
+	if(r==1){
+		return "危ねぇ";
+	}else if(r==2){
+		return "俺様をひやっとさせるとはな・・・";
+	}else if(r==3){
+		return "このドスケベ";
+	}else if(r==4){
+		return "俺に近づくとはな、やるじゃねえか";
+	}
+}
+var EscapePeople=function(config){
+	People.call(this,config);
+	this.speedMax=200;
+	this.baseA=5;
+	var self=this;
+	this.type="escape";
+	this.comment_flg=false;
+	this.escape_from_corner_flg=false;
+	this.run=function(){
+		setInterval(function(){
+			var escape_vector=self.getEscapeVector(People.chase,People.escape);
+			self.changeA(escape_vector);
+			self.shift();
+			//self.log();
+		}, 100);
+	}
+	this.getEscapeVector=function(chase,escape){
+		var d_ob=People.getDirection(chase,escape);
+		var lax;
+		var lay;
+		var area_distance=People.getDistance($("#svg_area").width(),$("#svg_area").height());
+		if(this.edge_flg!=true && (d_ob.distance >= area_distance*0.35)){
+			lax=(d_ob.vx)*(1+Math.random()*5-2.5);
+			lay=(d_ob.vy)*(1+Math.random()*5-2.5);
+			this.escape_from_corner_flg=false;
+		}else if((d_ob.distance <= area_distance*0.35) && this.edge_flg){
+			//var r= Math.ceil(Math.random()*2);
+			if(!this.escape_from_corner_flg){
+				if(Math.abs(d_ob.vx)>=Math.abs(d_ob.vy)){
+					if(this.getY()<=100){
+						lax=0;
+						lay=10;
+					}else{
+						lax=0;
+						lay=-10;
+					}
+				}else{
+					if(this.getX()<=100){
+						lax=10;
+						lay=0;
+					}else{
+						lax=-10;
+						lay=0;
+					}
+				}
+				this.escape_from_corner_flg=true;
+			}else{
+				lax=this.ax;
+				lay=this.ay;
+			}
+			this.comment(Comment.getRisk());
+		}else{
+			lax=this.ax;
+			lay=this.ay;
+			this.comment(Comment.getRisk());
+		}
+		return [lax,lay];
+	}
+	
+	this.log=function(){
+		var config={};
+		config["speedX"]=this.speedX;
+		config["speedY"]=this.speedY;
+		config["ax"]=this.ax;
+		config["ay"]=this.ay;
+		console.log(config);
+	}
+	this.run();
+}
+var ChasePeople=function(config){
+	People.call(this,config);
+	this.accele_flg=false;
+	this.speed=12;
+	this.speedMax=10;
+	this.baseA=2;
+	this.chase=function(key){
+		if(key==37){
+			if(this.accele_flg){
+				this.changeA([-10,0]);
+				this.shift();
+			}else{			
+				this.move(this.speed*-1,0);
+			}
+		}else if(key==38){
+			if(this.accele_flg){
+				this.changeA([0,-10]);
+				this.shift();
+			}else{	
+				this.move(0,this.speed*-1);
+			}
+		}else if(key==39){
+			if(this.accele_flg){
+				this.changeA([10,0]);
+				this.shift();
+			}else{	
+				this.move(this.speed,0);
+			}
+		}else if(key==40){
+			if(this.accele_flg){
+				this.changeA([0,10]);
+				this.shift();
+			}else{	
+				this.move(0,this.speed);
+			}
+		}
+		
+	}
+}
+$(document).ready(function(){
+	var escape=new EscapePeople();
+	var chase=new ChasePeople({x:$("#svg_area").width()-100,y:$("#svg_area").height()-100,color:"blue"});
+	escape.inline();
+	chase.inline();
+	People.escape=escape;
+	People.chase=chase;
+	$(window).keydown(function(e){
+		var key=e.keyCode;
+		chase.chase(key);
+	});
+	if(chase.accele_flg){
+		setInterval(function(){
+			chase.shift();
+		}, 100);
+	}
+});
+
+
+</script>
+</head>
+<body>
+
+<svg x=0 y=0 width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  id="svg_area" overflow="hidden"  >
+	<!--<image  id="drobou" width=60 height=60 x=0 y=0  xlink:href="drobou.png">
+	<image  id="keiji" width=60 height=60 x=0 y=0  xlink:href="keiji.jpg">
+	-->
+</svg>
+</body>
+</html>

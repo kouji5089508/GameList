@@ -1,0 +1,81 @@
+2016/08/31 16:42:35    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='57' group by u.id
+2016/08/31 16:42:35    update user set count=1,lastdate=now() where id='57'
+2016/08/31 16:42:35    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 16:42:35    update theme set last_static_used=now() where id='24'
+2016/08/31 16:42:36    select count(*) count from static_game_log where player =  '57' and theme = '24'
+2016/08/31 16:42:36    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 16:49:16    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 16:49:16    update theme set last_static_used=now() where id='24'
+2016/08/31 16:49:17    select count(*) count from static_game_log where player =  '57' and theme = '24'
+2016/08/31 16:49:17    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 16:49:21    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 16:49:21    update theme set last_static_used=now() where id='24'
+2016/08/31 16:49:22    select count(*) count from static_game_log where player =  '57' and theme = '24'
+2016/08/31 16:49:22    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 16:51:36    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 16:51:36    update theme set last_static_used=now() where id='24'
+2016/08/31 16:51:36    select count(*) count from static_game_log where player =  '57' and theme = '24'
+2016/08/31 16:51:36    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 16:52:02    select id,type,text,picture from theme where     test_flg='1'    and  not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:52:17    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:52:56     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:53:03    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:53:41     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:53:48    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:54:27     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:54:34    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23,34) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:55:12     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:55:19    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23,34,21) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:55:57     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:56:04    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23,34,21,37) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:56:43     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:56:49    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23,34,21,37,35) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:57:28     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:57:35    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23,34,21,37,35,22) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:58:14     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:58:21    select id,type,text,picture from theme where     test_flg='1'    and  not id in(25,24,23,34,21,37,35,22,36) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:58:22    select id,type,text,picture from theme   where    test_flg='1'    ORDER BY RAND() LIMIT 1 
+2016/08/31 16:59:00     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:59:07    select id,type,text,picture from theme where     test_flg='1'    and  not id in(21) ORDER BY RAND() LIMIT 1 
+2016/08/31 16:59:45     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 16:59:52    select id,type,text,picture from theme where     test_flg='1'    and  not id in(21,35) ORDER BY RAND() LIMIT 1 
+2016/08/31 17:00:31     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 17:00:38    select id,type,text,picture from theme where     test_flg='1'    and  not id in(21,35,34) ORDER BY RAND() LIMIT 1 
+2016/08/31 17:01:17     insert into seq_game_log   (     hoge  )  values (?) 
+2016/08/31 17:01:24    select id,type,text,picture from theme where     test_flg='1'    and  not id in(21,35,34,22) ORDER BY RAND() LIMIT 1 
+2016/08/31 17:01:53    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='59' group by u.id
+2016/08/31 17:01:54    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:01:54    update theme set last_static_used=now() where id='24'
+2016/08/31 17:01:54    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:01:54    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:02:20    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:02:20    update theme set last_static_used=now() where id='24'
+2016/08/31 17:02:20    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:02:20    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:17:13    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='59' group by u.id
+2016/08/31 17:17:13    update user set count=1,lastdate=now() where id='59'
+2016/08/31 17:17:13    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:17:13    update theme set last_static_used=now() where id='24'
+2016/08/31 17:17:13    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:17:13    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:26:53    select id,type,text,picture from theme where     test_flg='1'    and  not id in(9999999999999999999999) ORDER BY RAND() LIMIT 1 
+2016/08/31 17:26:54    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:26:54    update theme set last_static_used=now() where id='24'
+2016/08/31 17:26:54    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:26:55    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:27:17    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:27:17    update theme set last_static_used=now() where id='24'
+2016/08/31 17:27:17    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:27:17    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:34:14    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:34:14    update theme set last_static_used=now() where id='24'
+2016/08/31 17:34:14    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:34:15    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:54:33    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:54:33    update theme set last_static_used=now() where id='24'
+2016/08/31 17:54:34    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:54:34    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'
+2016/08/31 17:55:58    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/08/31 17:55:58    update theme set last_static_used=now() where id='24'
+2016/08/31 17:55:58    select count(*) count from static_game_log where player =  '59' and theme = '24'
+2016/08/31 17:55:58    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='24'

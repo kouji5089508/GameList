@@ -1,0 +1,17 @@
+2016/10/01 15:45:55    select  max(right(concat('0000',id),5)) from user
+2016/10/01 15:45:55    insert into user (id,name,startdate,age,sex) values('60','名無し',now(),'未登録','0' );
+2016/10/01 15:45:55    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='60' group by u.id
+2016/10/01 15:45:55    update user set count=1,lastdate=now() where id='60'
+2016/10/01 15:45:57    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/10/01 15:45:57    update theme set now_static_theme=null where now_static_theme is not null 
+2016/10/01 15:45:57    update user set vote_flg=null where vote_flg is not null
+2016/10/01 15:45:58    select id,type,text,picture from theme where     test_flg='1'     ORDER BY last_static_used asc  LIMIT 1 
+2016/10/01 15:45:58    update theme set now_static_theme=now() where id='34'
+2016/10/01 15:45:58    select count(*) count from static_game_log where player =  '60' and theme = '34'
+2016/10/01 15:45:58    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='34'
+2016/10/01 16:45:18    select  max(right(concat('0000',id),5)) from user
+2016/10/01 16:45:18    insert into user (id,name,startdate,age,sex) values('61','名無し',now(),'未登録','0' );
+2016/10/01 16:45:18    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='61' group by u.id
+2016/10/01 16:45:18    update user set count=1,lastdate=now() where id='61'
+2016/10/01 16:49:56    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='61' group by u.id
+2016/10/01 16:49:56    update user set count=2,lastdate=now() where id='61'

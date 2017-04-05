@@ -1,0 +1,167 @@
+2016/07/05 19:14:25    com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at db.DBUtil.getGameSequence(DBUtil.java:138)
+	at ap.GameLog.<init>(GameLog.java:22)
+	at ap.Game.recordLog(Game.java:282)
+	at ap.Game.changeStatus(Game.java:202)
+	at ap.Game.access$4(Game.java:180)
+	at ap.Game$3.run(Game.java:146)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 1 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at db.DBUtil.getGameSequence(DBUtil.java:138)
+	at ap.GameLog.<init>(GameLog.java:22)
+	at ap.Game.recordLog(Game.java:282)
+	at ap.Game.changeStatus(Game.java:202)
+	at ap.Game.access$4(Game.java:180)
+	at ap.Game$3.run(Game.java:146)
+
+2016/07/05 19:14:25    com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at db.DBUtil.getGameSequence(DBUtil.java:138)
+	at ap.GameLog.<init>(GameLog.java:22)
+	at ap.Game.recordLog(Game.java:282)
+	at ap.Game.changeStatus(Game.java:202)
+	at ap.Game.access$4(Game.java:180)
+	at ap.Game$3.run(Game.java:146)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 1 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.io.EOFException
+MESSAGE: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+STACKTRACE:
+
+java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:1997)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2411)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at db.DBUtil.getGameSequence(DBUtil.java:138)
+	at ap.GameLog.<init>(GameLog.java:22)
+	at ap.Game.recordLog(Game.java:282)
+	at ap.Game.changeStatus(Game.java:202)
+	at ap.Game.access$4(Game.java:180)
+	at ap.Game$3.run(Game.java:146)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 1 ms ago.
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2622)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2916)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at db.DBUtil.getGameSequence(DBUtil.java:138)
+	at ap.GameLog.<init>(GameLog.java:22)
+	at ap.Game.recordLog(Game.java:282)
+	at ap.Game.changeStatus(Game.java:202)
+	at ap.Game.access$4(Game.java:180)
+	at ap.Game$3.run(Game.java:146)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4768)
+	at com.mysql.jdbc.Connection.prepareStatement(Connection.java:4734)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.tomcat.dbcp.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at db.DBUtil.getOneLineData(DBUtil.java:104)
+	at ap.Game.setNewTheme(Game.java:423)
+	at ap.Game.init(Game.java:279)
+	at ap.Game.changeStatus(Game.java:204)
+	at ap.Game.access$4(Game.java:180)
+	at ap.Game$3.run(Game.java:146)
+

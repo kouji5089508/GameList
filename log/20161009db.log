@@ -1,0 +1,169 @@
+2016/10/09 16:54:52    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='61' group by u.id
+2016/10/09 16:54:52    update user set count=8,lastdate=now() where id='61'
+2016/10/09 16:55:06     insert into SHOOTING_LOG(user,score) values(61,110)
+2016/10/09 16:56:55     insert into SHOOTING_LOG(user,score) values(61,210)
+2016/10/09 16:58:38     insert into SHOOTING_LOG(user,score) values(61,0)
+2016/10/09 17:23:50    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='60' group by u.id
+2016/10/09 17:23:50    update user set count=2,lastdate=now() where id='60'
+2016/10/09 17:23:51    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:24:32    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='60' group by u.id
+2016/10/09 17:24:32    update user set count=3,lastdate=now() where id='60'
+2016/10/09 17:24:33    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:27:48    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:29:27    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:30:40    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:31:08    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:33:53    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:34:24    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:35:09    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 17:35:22    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 18:02:34    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='61' group by u.id
+2016/10/09 18:02:34    update user set count=9,lastdate=now() where id='61'
+2016/10/09 18:03:30     update user set name='' where id='61'
+2016/10/09 18:03:53     update user set name='tarou' where id='61'
+2016/10/09 18:03:58     update user set name='tarou' where id='61'
+2016/10/09 18:05:04     update user set name='tarou' where id='61'
+2016/10/09 18:05:31     update user set name='tarou' where id='61'
+2016/10/09 18:06:53    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='61' group by u.id
+2016/10/09 18:06:53    update user set count=10,lastdate=now() where id='61'
+2016/10/09 18:08:16     insert into SHOOTING_LOG(user,score) values(61,0)
+2016/10/09 18:09:14    select  max(right(concat('0000',id),5)) from user
+2016/10/09 18:09:15    insert into user (id,name,startdate,age,sex) values('63','名無し',now(),'未登録','0' );
+2016/10/09 18:09:15    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='63' group by u.id
+2016/10/09 18:09:19     update user set name='' where id='63'
+2016/10/09 18:09:24     update user set name='tatano' where id='63'
+2016/10/09 18:10:16     update user set name='tatan' where id='63'
+2016/10/09 18:10:24     update user set name='tatano' where id='63'
+2016/10/09 18:13:32     update user set name='' where id='63'
+2016/10/09 18:17:15    select  max(right(concat('0000',id),5)) from user
+2016/10/09 18:17:15    insert into user (id,name,startdate,age,sex) values('64','名無し',now(),'未登録','0' );
+2016/10/09 18:17:15    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='64' group by u.id
+2016/10/09 18:17:21     update user set name='tatano' where id='64'
+2016/10/09 18:17:45     update user set name='tatatd' where id='64'
+2016/10/09 18:18:21     update user set name='hshfsdhfhs' where id='64'
+2016/10/09 18:18:54     update user set name='kanako' where id='64'
+2016/10/09 18:19:53     update user set name='kanoko' where id='64'
+2016/10/09 18:24:32    select  max(right(concat('0000',id),5)) from user
+2016/10/09 18:24:32    insert into user (id,name,startdate,age,sex) values('65','名無し',now(),'未登録','0' );
+2016/10/09 18:24:33    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='65' group by u.id
+2016/10/09 18:24:33    update user set count=1,lastdate=now() where id='65'
+2016/10/09 18:24:42     update user set name='dandan' where id='65'
+2016/10/09 18:26:18     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 18:26:37    select  max(right(concat('0000',id),5)) from user
+2016/10/09 18:26:37    insert into user (id,name,startdate,age,sex) values('66','名無し',now(),'未登録','0' );
+2016/10/09 18:26:38    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='66' group by u.id
+2016/10/09 18:26:39    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 18:28:22     update user set name='tarou' where id='66'
+2016/10/09 18:28:39     insert into SHOOTING_LOG(user,score) values(66,0)
+2016/10/09 18:29:14     insert into SHOOTING_LOG(user,score) values(66,0)
+2016/10/09 18:53:18    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='65' group by u.id
+2016/10/09 18:53:18    update user set count=2,lastdate=now() where id='65'
+2016/10/09 18:56:55     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 18:58:46     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 18:59:01     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 18:59:36     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:02:42     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 19:02:56     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 19:10:40    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='65' group by u.id
+2016/10/09 19:10:40    update user set count=3,lastdate=now() where id='65'
+2016/10/09 19:10:40    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='65' group by u.id
+2016/10/09 19:10:51     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 19:10:51     select count(*) from SHOOTING_LOG 
+2016/10/09 19:12:42     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 19:14:13    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='65' group by u.id
+2016/10/09 19:14:14    update user set count=4,lastdate=now() where id='65'
+2016/10/09 19:14:34     insert into SHOOTING_LOG(user,score) values(65,110)
+2016/10/09 19:14:34    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:14:34     select count(*) from SHOOTING_LOG 
+2016/10/09 19:14:53     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:14:53    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:14:53     select count(*) from SHOOTING_LOG 
+2016/10/09 19:15:48     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:15:52    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:15:52     select count(*) from SHOOTING_LOG 
+2016/10/09 19:16:30     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:16:31    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:16:31     select count(*) from SHOOTING_LOG 
+2016/10/09 19:16:38     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:16:42    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:16:42     select count(*) from SHOOTING_LOG 
+2016/10/09 19:16:43     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:16:43    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:16:44     select count(*) from SHOOTING_LOG 
+2016/10/09 19:16:49     insert into SHOOTING_LOG(user,score) values(65,0)
+2016/10/09 19:16:49    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:16:50     select count(*) from SHOOTING_LOG 
+2016/10/09 19:18:44    select  max(right(concat('0000',id),5)) from user
+2016/10/09 19:18:44    insert into user (id,name,startdate,age,sex) values('67','名無し',now(),'未登録','0' );
+2016/10/09 19:18:44    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='67' group by u.id
+2016/10/09 19:18:51     update user set name='tanaka' where id='67'
+2016/10/09 19:19:03     insert into SHOOTING_LOG(user,score) values(67,110)
+2016/10/09 19:19:03    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:19:03     select count(*) from SHOOTING_LOG 
+2016/10/09 19:20:25     insert into SHOOTING_LOG(user,score) values(67,0)
+2016/10/09 19:20:25     insert into SHOOTING_LOG(user,score) values(67,0)
+2016/10/09 19:20:26    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:20:26     select count(*) from SHOOTING_LOG 
+2016/10/09 19:20:27    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:20:27     select count(*) from SHOOTING_LOG 
+2016/10/09 19:21:03    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:21:03     select count(*) from SHOOTING_LOG 
+2016/10/09 19:26:16    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:26:16     select count(*) from SHOOTING_LOG 
+2016/10/09 19:26:24     insert into SHOOTING_LOG(user,score) values(67,0)
+2016/10/09 19:26:24    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:26:24     select count(*) from SHOOTING_LOG 
+2016/10/09 19:26:47     insert into SHOOTING_LOG(user,score) values(67,0)
+2016/10/09 19:26:47    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:26:48     select count(*) from SHOOTING_LOG 
+2016/10/09 19:26:53     insert into SHOOTING_LOG(user,score) values(67,0)
+2016/10/09 19:27:04     insert into SHOOTING_LOG(user,score) values(67,110)
+2016/10/09 19:27:04    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:27:05     select count(*) from SHOOTING_LOG 
+2016/10/09 19:27:22     insert into SHOOTING_LOG(user,score) values(67,110)
+2016/10/09 19:27:23    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:27:23     select count(*) from SHOOTING_LOG 
+2016/10/09 19:27:33     insert into SHOOTING_LOG(user,score) values(67,110)
+2016/10/09 19:27:33    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:27:33     select count(*) from SHOOTING_LOG 
+2016/10/09 19:27:36     insert into SHOOTING_LOG(user,score) values(67,110)
+2016/10/09 19:36:50    select  max(right(concat('0000',id),5)) from user
+2016/10/09 19:36:50    insert into user (id,name,startdate,age,sex) values('68','名無し',now(),'未登録','0' );
+2016/10/09 19:36:50    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='68' group by u.id
+2016/10/09 19:36:51    select id,type,text,picture,now_static_theme from theme where   now_static_theme is not null   ORDER BY last_static_used asc  LIMIT 1 
+2016/10/09 19:36:51    update theme set last_static_used=now() where id='34'
+2016/10/09 19:36:52    select count(*) count from static_game_log where player =  '68' and theme = '34'
+2016/10/09 19:36:52    select * from static_game_log sg join user u on sg.player=u.id where sg.theme='34'
+2016/10/09 19:37:02     update user set name='ｄｄｄｄｄｄ' where id='68'
+2016/10/09 19:37:32     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:37:33    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:37:33     select count(*) from SHOOTING_LOG 
+2016/10/09 19:47:27    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
+2016/10/09 19:47:52     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:47:52    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:47:52     select count(*) from SHOOTING_LOG 
+2016/10/09 19:48:07     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:50:38     insert into SHOOTING_LOG(user,score) values(68,110)
+2016/10/09 19:50:39    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:50:39     select count(*) from SHOOTING_LOG 
+2016/10/09 19:54:08     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:54:09    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:54:09     select count(*) from SHOOTING_LOG 
+2016/10/09 19:54:14     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:54:15    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:54:15     select count(*) from SHOOTING_LOG 
+2016/10/09 19:57:45    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='63' group by u.id
+2016/10/09 19:57:50     update user set name='たたた' where id='63'
+2016/10/09 19:57:54     insert into SHOOTING_LOG(user,score) values(63,0)
+2016/10/09 19:57:55    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:57:55     select count(*) from SHOOTING_LOG 
+2016/10/09 19:59:02     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:59:02     insert into SHOOTING_LOG(user,score) values(68,0)
+2016/10/09 19:59:03    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:59:03     select count(*) from SHOOTING_LOG 
+2016/10/09 19:59:03    select max(rank) from (SELECT s1.user,s1.score,(SELECT COUNT(s2.score) FROM SHOOTING_LOG s2 WHERE s2.score > s1.score) +1 AS RANK FROM SHOOTING_LOG s1 where s1.score='0') rr
+2016/10/09 19:59:03     select count(*) from SHOOTING_LOG 
+2016/10/09 20:07:51    select  max(right(concat('0000',id),5)) from user
+2016/10/09 20:07:51    insert into user (id,name,startdate,age,sex) values('69','名無し',now(),'未登録','0' );
+2016/10/09 20:07:51    select u.*,count(*) play_count from user u left join game_log gl on u.id=gl.player where u.id='69' group by u.id
+2016/10/09 20:07:52    select u.name,s.score from SHOOTING_LOG s join user u on s.user=u.id order by score desc limit 100
